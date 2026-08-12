@@ -1,0 +1,712 @@
+2026-04-21 17:49:26,863 - INFO - Iniciando processamento com API_KEY_1
+2026-04-21 17:49:26,863 - INFO - Buscando notícias | palavra='Type 2 Diabetes Mellitus' | tentativa=1
+2026-04-21 17:49:28,812 - INFO - 0 notícias encontradas para 'Type 2 Diabetes Mellitus'
+2026-04-21 17:49:28,813 - INFO - Buscando notícias | palavra='PBM' | tentativa=1
+2026-04-21 17:49:30,420 - INFO - 0 notícias encontradas para 'PBM'
+2026-04-21 17:49:30,421 - INFO - Buscando notícias | palavra='Empagliflozin' | tentativa=1
+2026-04-21 17:49:31,656 - INFO - 0 notícias encontradas para 'Empagliflozin'
+2026-04-21 17:49:31,658 - INFO - Buscando notícias | palavra='Linagliptin' | tentativa=1
+2026-04-21 17:49:32,863 - INFO - 0 notícias encontradas para 'Linagliptin'
+2026-04-21 17:49:32,865 - INFO - Buscando notícias | palavra='SGLT2 Inhibitors' | tentativa=1
+2026-04-21 17:49:34,581 - INFO - 0 notícias encontradas para 'SGLT2 Inhibitors'
+2026-04-21 17:49:34,583 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-04-21 17:49:35,807 - INFO - 0 notícias encontradas para 'Anvisa'
+2026-04-21 17:49:35,809 - INFO - Buscando notícias | palavra='obesity' | tentativa=1
+2026-04-21 17:49:37,313 - INFO - 0 notícias encontradas para 'obesity'
+2026-04-21 17:49:37,314 - INFO - Buscando notícias | palavra='GLP-1' | tentativa=1
+2026-04-21 17:49:39,229 - INFO - 0 notícias encontradas para 'GLP-1'
+2026-04-21 17:49:39,230 - INFO - Buscando notícias | palavra='Insulin' | tentativa=1
+2026-04-21 17:49:40,921 - INFO - 0 notícias encontradas para 'Insulin'
+2026-04-21 17:49:40,922 - INFO - Buscando notícias | palavra='Degludec' | tentativa=1
+2026-04-21 17:49:42,170 - INFO - 0 notícias encontradas para 'Degludec'
+2026-04-21 17:49:42,171 - INFO - Buscando notícias | palavra='SemaglutideGlycated Hemoglobin' | tentativa=1
+2026-04-21 17:49:43,639 - INFO - 0 notícias encontradas para 'SemaglutideGlycated Hemoglobin'
+2026-04-21 17:49:43,640 - INFO - Buscando notícias | palavra='Metabolic Management' | tentativa=1
+2026-04-21 17:49:45,138 - INFO - 0 notícias encontradas para 'Metabolic Management'
+2026-04-21 17:49:45,140 - INFO - Buscando notícias | palavra='Metformin' | tentativa=1
+2026-04-21 17:49:47,123 - INFO - 0 notícias encontradas para 'Metformin'
+2026-04-21 17:49:47,124 - INFO - Buscando notícias | palavra='exchange rate' | tentativa=1
+2026-04-21 17:49:49,967 - INFO - 0 notícias encontradas para 'exchange rate'
+2026-04-21 17:49:49,970 - INFO - Buscando notícias | palavra='dollar' | tentativa=1
+2026-04-21 17:49:52,730 - INFO - 0 notícias encontradas para 'dollar'
+2026-04-21 17:49:52,731 - INFO - Buscando notícias | palavra='API (Active Pharmaceutical Ingredient)' | tentativa=1
+2026-04-21 17:49:55,478 - INFO - 0 notícias encontradas para 'API (Active Pharmaceutical Ingredient)'
+2026-04-21 17:49:55,480 - INFO - Buscando notícias | palavra='Drug price adjustment' | tentativa=1
+2026-04-21 17:49:57,461 - INFO - 0 notícias encontradas para 'Drug price adjustment'
+2026-04-21 17:49:57,464 - INFO - Buscando notícias | palavra='CONITECMajor Adverse Cardiac Events' | tentativa=1
+2026-04-21 17:49:59,254 - INFO - 0 notícias encontradas para 'CONITECMajor Adverse Cardiac Events'
+2026-04-21 17:50:00,256 - WARNING - Nenhum dado para salvar no CSV.
+2026-04-21 17:54:16,286 - INFO - Iniciando processamento com API_KEY_1
+2026-04-21 17:54:16,287 - INFO - Buscando notícias | palavra='Type 2 Diabetes Mellitus' | tentativa=1
+2026-04-21 17:54:18,456 - INFO - 0 notícias encontradas para 'Type 2 Diabetes Mellitus'
+2026-04-21 17:54:18,458 - INFO - Buscando notícias | palavra='PBM' | tentativa=1
+2026-04-21 17:54:20,681 - INFO - 0 notícias encontradas para 'PBM'
+2026-04-21 17:54:20,682 - INFO - Buscando notícias | palavra='Empagliflozin' | tentativa=1
+2026-04-21 17:54:22,117 - INFO - 0 notícias encontradas para 'Empagliflozin'
+2026-04-21 17:54:22,120 - INFO - Buscando notícias | palavra='Linagliptin' | tentativa=1
+2026-04-21 17:54:23,474 - INFO - 0 notícias encontradas para 'Linagliptin'
+2026-04-21 17:54:23,475 - INFO - Buscando notícias | palavra='SGLT2 Inhibitors' | tentativa=1
+2026-04-21 17:54:25,193 - INFO - 0 notícias encontradas para 'SGLT2 Inhibitors'
+2026-04-21 17:54:25,194 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-04-21 17:54:26,422 - INFO - 0 notícias encontradas para 'Anvisa'
+2026-04-21 17:54:26,423 - INFO - Buscando notícias | palavra='obesity' | tentativa=1
+2026-04-21 17:54:27,942 - INFO - 0 notícias encontradas para 'obesity'
+2026-04-21 17:54:27,943 - INFO - Buscando notícias | palavra='GLP-1' | tentativa=1
+2026-04-21 17:54:29,998 - INFO - 0 notícias encontradas para 'GLP-1'
+2026-04-21 17:54:30,000 - INFO - Buscando notícias | palavra='Insulin' | tentativa=1
+2026-04-21 17:54:31,740 - INFO - 0 notícias encontradas para 'Insulin'
+2026-04-21 17:54:31,741 - INFO - Buscando notícias | palavra='Degludec' | tentativa=1
+2026-04-21 17:54:33,005 - INFO - 0 notícias encontradas para 'Degludec'
+2026-04-21 17:54:33,006 - INFO - Buscando notícias | palavra='SemaglutideGlycated Hemoglobin' | tentativa=1
+2026-04-21 17:54:34,749 - INFO - 0 notícias encontradas para 'SemaglutideGlycated Hemoglobin'
+2026-04-21 17:54:34,751 - INFO - Buscando notícias | palavra='Metabolic Management' | tentativa=1
+2026-04-21 17:54:36,729 - INFO - 0 notícias encontradas para 'Metabolic Management'
+2026-04-21 17:54:36,730 - INFO - Buscando notícias | palavra='Metformin' | tentativa=1
+2026-04-21 17:54:38,450 - INFO - 0 notícias encontradas para 'Metformin'
+2026-04-21 17:54:38,453 - INFO - Buscando notícias | palavra='exchange rate' | tentativa=1
+2026-04-21 17:54:40,562 - INFO - 0 notícias encontradas para 'exchange rate'
+2026-04-21 17:54:40,564 - INFO - Buscando notícias | palavra='dollar' | tentativa=1
+2026-04-21 17:54:42,019 - INFO - 0 notícias encontradas para 'dollar'
+2026-04-21 17:54:42,021 - INFO - Buscando notícias | palavra='API (Active Pharmaceutical Ingredient)' | tentativa=1
+2026-04-21 17:54:43,797 - INFO - 0 notícias encontradas para 'API (Active Pharmaceutical Ingredient)'
+2026-04-21 17:54:43,798 - INFO - Buscando notícias | palavra='Drug price adjustment' | tentativa=1
+2026-04-21 17:54:45,327 - INFO - 0 notícias encontradas para 'Drug price adjustment'
+2026-04-21 17:54:45,328 - INFO - Buscando notícias | palavra='CONITECMajor Adverse Cardiac Events' | tentativa=1
+2026-04-21 17:54:46,879 - INFO - 0 notícias encontradas para 'CONITECMajor Adverse Cardiac Events'
+2026-04-21 17:54:47,881 - WARNING - Nenhum dado para salvar no CSV.
+2026-04-21 17:57:12,009 - INFO - Iniciando processamento com API_KEY_1
+2026-04-21 17:57:12,009 - INFO - Buscando notícias | palavra='Type 2 Diabetes Mellitus' | tentativa=1
+2026-04-21 17:57:13,916 - INFO - 0 notícias encontradas para 'Type 2 Diabetes Mellitus'
+2026-04-21 17:57:13,918 - INFO - Buscando notícias | palavra='PBM' | tentativa=1
+2026-04-21 17:57:15,555 - INFO - 0 notícias encontradas para 'PBM'
+2026-04-21 17:57:15,557 - INFO - Buscando notícias | palavra='Empagliflozin' | tentativa=1
+2026-04-21 17:57:16,760 - INFO - 0 notícias encontradas para 'Empagliflozin'
+2026-04-21 17:57:16,761 - INFO - Buscando notícias | palavra='Linagliptin' | tentativa=1
+2026-04-21 17:57:18,010 - INFO - 0 notícias encontradas para 'Linagliptin'
+2026-04-21 17:57:18,013 - INFO - Buscando notícias | palavra='SGLT2 Inhibitors' | tentativa=1
+2026-04-21 17:57:19,693 - INFO - 0 notícias encontradas para 'SGLT2 Inhibitors'
+2026-04-21 17:57:19,694 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-04-21 17:57:20,918 - INFO - 0 notícias encontradas para 'Anvisa'
+2026-04-21 17:57:20,919 - INFO - Buscando notícias | palavra='obesity' | tentativa=1
+2026-04-21 17:57:22,357 - INFO - 0 notícias encontradas para 'obesity'
+2026-04-21 17:57:22,359 - INFO - Buscando notícias | palavra='GLP-1' | tentativa=1
+2026-04-21 17:57:24,253 - INFO - 0 notícias encontradas para 'GLP-1'
+2026-04-21 17:57:24,256 - INFO - Buscando notícias | palavra='Insulin' | tentativa=1
+2026-04-21 17:57:25,913 - INFO - 0 notícias encontradas para 'Insulin'
+2026-04-21 17:57:25,915 - INFO - Buscando notícias | palavra='Degludec' | tentativa=1
+2026-04-21 17:57:27,129 - INFO - 0 notícias encontradas para 'Degludec'
+2026-04-21 17:57:27,131 - INFO - Buscando notícias | palavra='SemaglutideGlycated Hemoglobin' | tentativa=1
+2026-04-21 17:57:28,691 - INFO - 0 notícias encontradas para 'SemaglutideGlycated Hemoglobin'
+2026-04-21 17:57:28,693 - INFO - Buscando notícias | palavra='Metabolic Management' | tentativa=1
+2026-04-21 17:57:30,345 - INFO - 0 notícias encontradas para 'Metabolic Management'
+2026-04-21 17:57:30,346 - INFO - Buscando notícias | palavra='Metformin' | tentativa=1
+2026-04-21 17:57:32,022 - INFO - 0 notícias encontradas para 'Metformin'
+2026-04-21 17:57:32,024 - INFO - Buscando notícias | palavra='exchange rate' | tentativa=1
+2026-04-21 17:57:34,204 - INFO - 0 notícias encontradas para 'exchange rate'
+2026-04-21 17:57:34,206 - INFO - Buscando notícias | palavra='dollar' | tentativa=1
+2026-04-21 17:57:35,778 - INFO - 0 notícias encontradas para 'dollar'
+2026-04-21 17:57:35,780 - INFO - Buscando notícias | palavra='API (Active Pharmaceutical Ingredient)' | tentativa=1
+2026-04-21 17:57:37,461 - INFO - 0 notícias encontradas para 'API (Active Pharmaceutical Ingredient)'
+2026-04-21 17:57:37,463 - INFO - Buscando notícias | palavra='Drug price adjustment' | tentativa=1
+2026-04-21 17:57:38,907 - INFO - 0 notícias encontradas para 'Drug price adjustment'
+2026-04-21 17:57:38,908 - INFO - Buscando notícias | palavra='CONITECMajor Adverse Cardiac Events' | tentativa=1
+2026-04-21 17:57:40,534 - INFO - 0 notícias encontradas para 'CONITECMajor Adverse Cardiac Events'
+2026-04-21 17:57:41,537 - WARNING - Nenhum dado para salvar no CSV.
+2026-04-21 19:33:59,734 - INFO - Iniciando processamento com API_KEY_1
+2026-04-21 19:33:59,736 - INFO - Buscando notícias | palavra='Diabetes Mellitus Tipo 2' | tentativa=1
+2026-04-21 19:34:00,792 - INFO - 0 notícias encontradas para 'Diabetes Mellitus Tipo 2'
+2026-04-21 19:34:00,794 - INFO - Buscando notícias | palavra='PBM' | tentativa=1
+2026-04-21 19:34:01,545 - ERROR - Erro HTTP 429 para 'PBM' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=PBM&lang=pt&country=br&max=5&page=1&to=2023-01-01&apikey=93df50dd0f768f29006883aff2204880
+2026-04-21 19:34:01,545 - INFO - Buscando notícias | palavra='empagliflozina' | tentativa=1
+2026-04-21 19:34:02,295 - INFO - 0 notícias encontradas para 'empagliflozina'
+2026-04-21 19:34:02,295 - INFO - Buscando notícias | palavra='linagliptina' | tentativa=1
+2026-04-21 19:34:03,011 - ERROR - Erro HTTP 429 para 'linagliptina' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=linagliptina&lang=pt&country=br&max=5&page=1&to=2023-01-01&apikey=93df50dd0f768f29006883aff2204880
+2026-04-21 19:34:03,022 - INFO - Buscando notícias | palavra='Inibidores de SGLT2' | tentativa=1
+2026-04-21 19:34:03,760 - INFO - 0 notícias encontradas para 'Inibidores de SGLT2'
+2026-04-21 19:34:03,768 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-04-21 19:34:04,543 - ERROR - Erro HTTP 429 para 'Anvisa' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=Anvisa&lang=pt&country=br&max=5&page=1&to=2023-01-01&apikey=93df50dd0f768f29006883aff2204880
+2026-04-21 19:34:04,543 - INFO - Buscando notícias | palavra='obesidade' | tentativa=1
+2026-04-21 19:34:05,376 - INFO - 5 notícias encontradas para 'obesidade'
+2026-04-21 19:34:05,376 - INFO - Buscando notícias | palavra='GLP-1' | tentativa=1
+2026-04-21 19:34:06,138 - ERROR - Erro HTTP 429 para 'GLP-1' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=GLP-1&lang=pt&country=br&max=5&page=1&to=2023-01-01&apikey=93df50dd0f768f29006883aff2204880
+2026-04-21 19:34:06,138 - INFO - Buscando notícias | palavra='Insulina' | tentativa=1
+2026-04-21 19:34:06,953 - INFO - 5 notícias encontradas para 'Insulina'
+2026-04-21 19:34:06,955 - INFO - Buscando notícias | palavra='Degludeca' | tentativa=1
+2026-04-21 19:34:07,709 - ERROR - Erro HTTP 429 para 'Degludeca' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=Degludeca&lang=pt&country=br&max=5&page=1&to=2023-01-01&apikey=93df50dd0f768f29006883aff2204880
+2026-04-21 19:34:07,709 - INFO - Buscando notícias | palavra='SemaglutidaHemoglobina Glicada' | tentativa=1
+2026-04-21 19:34:08,524 - INFO - 0 notícias encontradas para 'SemaglutidaHemoglobina Glicada'
+2026-04-21 19:34:08,524 - INFO - Buscando notícias | palavra='Gestão Metabólica' | tentativa=1
+2026-04-21 19:34:09,323 - ERROR - Erro HTTP 429 para 'Gestão Metabólica' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=Gest%C3%A3o+Metab%C3%B3lica&lang=pt&country=br&max=5&page=1&to=2023-01-01&apikey=93df50dd0f768f29006883aff2204880
+2026-04-21 19:34:09,323 - INFO - Buscando notícias | palavra='Metformina' | tentativa=1
+2026-04-21 19:34:10,224 - INFO - 2 notícias encontradas para 'Metformina'
+2026-04-21 19:34:10,224 - INFO - Buscando notícias | palavra='taxa de câmbio' | tentativa=1
+2026-04-21 19:34:11,350 - INFO - 1 notícias encontradas para 'taxa de câmbio'
+2026-04-21 19:34:11,355 - INFO - Buscando notícias | palavra='dólar' | tentativa=1
+2026-04-21 19:34:13,049 - INFO - 5 notícias encontradas para 'dólar'
+2026-04-21 19:34:13,053 - INFO - Buscando notícias | palavra='IFA' | tentativa=1
+2026-04-21 19:34:14,983 - INFO - 1 notícias encontradas para 'IFA'
+2026-04-21 19:34:14,986 - INFO - Buscando notícias | palavra='reajuste CMED' | tentativa=1
+2026-04-21 19:34:16,756 - INFO - 5 notícias encontradas para 'reajuste CMED'
+2026-04-21 19:34:16,756 - INFO - Buscando notícias | palavra='CONITECMACE' | tentativa=1
+2026-04-21 19:34:18,266 - INFO - 0 notícias encontradas para 'CONITECMACE'
+2026-04-21 19:34:19,286 - INFO - CSV salvo com sucesso em: c:\Users\u1174978\OneDrive - IQVIA\Documents\Geral\Importantes\MACKENZIE\5 - SEMESTRE\TCC\sistema-inteligencia-prescritiva-para-industria-farmaceutica\data\extracao_noticias_gnews.csv
+2026-04-21 19:35:51,081 - INFO - Iniciando processamento com API_KEY_1
+2026-04-21 19:35:51,083 - INFO - Buscando notícias | palavra='Diabetes Mellitus Tipo 2' | tentativa=1
+2026-04-21 19:35:52,376 - INFO - 0 notícias encontradas para 'Diabetes Mellitus Tipo 2'
+2026-04-21 19:35:52,378 - INFO - Buscando notícias | palavra='PBM' | tentativa=1
+2026-04-21 19:35:53,855 - INFO - 0 notícias encontradas para 'PBM'
+2026-04-21 19:35:53,858 - INFO - Buscando notícias | palavra='empagliflozina' | tentativa=1
+2026-04-21 19:35:54,858 - INFO - 0 notícias encontradas para 'empagliflozina'
+2026-04-21 19:35:54,858 - INFO - Buscando notícias | palavra='linagliptina' | tentativa=1
+2026-04-21 19:35:55,722 - ERROR - Erro HTTP 429 para 'linagliptina' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=linagliptina&lang=pt&country=br&max=5&page=1&from=2023-01-01&to=2023-12-31&apikey=93df50dd0f768f29006883aff2204880
+2026-04-21 19:35:55,722 - INFO - Buscando notícias | palavra='Inibidores de SGLT2' | tentativa=1
+2026-04-21 19:35:56,560 - INFO - 0 notícias encontradas para 'Inibidores de SGLT2'
+2026-04-21 19:35:56,560 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-04-21 19:35:57,385 - ERROR - Erro HTTP 429 para 'Anvisa' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=Anvisa&lang=pt&country=br&max=5&page=1&from=2023-01-01&to=2023-12-31&apikey=93df50dd0f768f29006883aff2204880
+2026-04-21 19:35:57,385 - INFO - Buscando notícias | palavra='obesidade' | tentativa=1
+2026-04-21 19:35:58,273 - INFO - 5 notícias encontradas para 'obesidade'
+2026-04-21 19:35:58,273 - INFO - Buscando notícias | palavra='GLP-1' | tentativa=1
+2026-04-21 19:35:59,145 - ERROR - Erro HTTP 429 para 'GLP-1' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=GLP-1&lang=pt&country=br&max=5&page=1&from=2023-01-01&to=2023-12-31&apikey=93df50dd0f768f29006883aff2204880
+2026-04-21 19:35:59,157 - INFO - Buscando notícias | palavra='Insulina' | tentativa=1
+2026-04-21 19:35:59,974 - INFO - 5 notícias encontradas para 'Insulina'
+2026-04-21 19:35:59,974 - INFO - Buscando notícias | palavra='Degludeca' | tentativa=1
+2026-04-21 19:36:00,721 - ERROR - Erro HTTP 429 para 'Degludeca' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=Degludeca&lang=pt&country=br&max=5&page=1&from=2023-01-01&to=2023-12-31&apikey=93df50dd0f768f29006883aff2204880
+2026-04-21 19:36:00,721 - INFO - Buscando notícias | palavra='SemaglutidaHemoglobina Glicada' | tentativa=1
+2026-04-21 19:36:01,516 - INFO - 0 notícias encontradas para 'SemaglutidaHemoglobina Glicada'
+2026-04-21 19:36:01,516 - INFO - Buscando notícias | palavra='Gestão Metabólica' | tentativa=1
+2026-04-21 19:36:02,335 - ERROR - Erro HTTP 429 para 'Gestão Metabólica' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=Gest%C3%A3o+Metab%C3%B3lica&lang=pt&country=br&max=5&page=1&from=2023-01-01&to=2023-12-31&apikey=93df50dd0f768f29006883aff2204880
+2026-04-21 19:36:02,335 - INFO - Buscando notícias | palavra='Metformina' | tentativa=1
+2026-04-21 19:36:03,148 - INFO - 2 notícias encontradas para 'Metformina'
+2026-04-21 19:36:03,148 - INFO - Buscando notícias | palavra='taxa de câmbio' | tentativa=1
+2026-04-21 19:36:04,299 - INFO - 1 notícias encontradas para 'taxa de câmbio'
+2026-04-21 19:36:04,300 - INFO - Buscando notícias | palavra='dólar' | tentativa=1
+2026-04-21 19:36:05,146 - ERROR - Erro HTTP 429 para 'dólar' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=d%C3%B3lar&lang=pt&country=br&max=5&page=1&from=2023-01-01&to=2023-12-31&apikey=93df50dd0f768f29006883aff2204880
+2026-04-21 19:36:05,146 - INFO - Buscando notícias | palavra='IFA' | tentativa=1
+2026-04-21 19:36:06,081 - INFO - 1 notícias encontradas para 'IFA'
+2026-04-21 19:36:06,083 - INFO - Buscando notícias | palavra='reajuste CMED' | tentativa=1
+2026-04-21 19:36:06,878 - ERROR - Erro HTTP 429 para 'reajuste CMED' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=reajuste+CMED&lang=pt&country=br&max=5&page=1&from=2023-01-01&to=2023-12-31&apikey=93df50dd0f768f29006883aff2204880
+2026-04-21 19:36:06,895 - INFO - Buscando notícias | palavra='CONITECMACE' | tentativa=1
+2026-04-21 19:36:07,706 - INFO - 0 notícias encontradas para 'CONITECMACE'
+2026-04-21 19:36:08,710 - INFO - CSV salvo com sucesso em: c:\Users\u1174978\OneDrive - IQVIA\Documents\Geral\Importantes\MACKENZIE\5 - SEMESTRE\TCC\sistema-inteligencia-prescritiva-para-industria-farmaceutica\data\extracao_noticias_gnews.csv
+2026-05-02 20:01:30,855 - INFO - Iniciando processamento com API_KEY_1
+2026-05-02 20:01:30,857 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-05-02 20:01:31,938 - ERROR - Erro HTTP 403 para 'Anvisa' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Anvisa&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-02 20:01:32,944 - WARNING - Nenhum dado para salvar no CSV.
+2026-05-02 20:03:26,861 - INFO - Iniciando processamento com API_KEY_1
+2026-05-02 20:03:26,861 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-05-02 20:03:27,766 - INFO - 10 notícias encontradas para 'Anvisa'
+2026-05-02 20:03:27,766 - INFO - Buscando notícias | palavra='anvisa' | tentativa=1
+2026-05-02 20:03:28,493 - ERROR - Erro HTTP 429 para 'anvisa' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=anvisa&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=93df50dd0f768f29006883aff2204880
+2026-05-02 20:03:28,493 - INFO - Buscando notícias | palavra='ANVISA' | tentativa=1
+2026-05-02 20:03:29,442 - INFO - 10 notícias encontradas para 'ANVISA'
+2026-05-02 20:03:30,461 - INFO - CSV salvo com sucesso em: c:\Users\u1174978\OneDrive - IQVIA\Documents\Geral\Importantes\MACKENZIE\5 - SEMESTRE\TCC\sistema-inteligencia-prescritiva-para-industria-farmaceutica\data\extracao_noticias_gnews.csv
+2026-05-02 20:05:37,561 - INFO - Iniciando processamento com API_KEY_1
+2026-05-02 20:05:37,561 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-05-02 20:05:38,445 - INFO - 10 notícias encontradas para 'Anvisa'
+2026-05-02 20:05:38,446 - INFO - Buscando notícias | palavra='anvisa' | tentativa=1
+2026-05-02 20:05:39,222 - ERROR - Erro HTTP 429 para 'anvisa' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=anvisa&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=93df50dd0f768f29006883aff2204880
+2026-05-02 20:05:39,222 - INFO - Buscando notícias | palavra='ANVISA' | tentativa=1
+2026-05-02 20:05:40,126 - INFO - 10 notícias encontradas para 'ANVISA'
+2026-05-02 20:05:41,136 - INFO - CSV salvo com sucesso em: c:\Users\u1174978\OneDrive - IQVIA\Documents\Geral\Importantes\MACKENZIE\5 - SEMESTRE\TCC\sistema-inteligencia-prescritiva-para-industria-farmaceutica\data\extracao_noticias_gnews.csv
+2026-05-02 20:06:11,518 - INFO - Iniciando processamento com API_KEY_1
+2026-05-02 20:06:11,518 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-05-02 20:06:13,802 - INFO - 10 notícias encontradas para 'Anvisa'
+2026-05-02 20:06:13,807 - INFO - Buscando notícias | palavra='anvisa' | tentativa=1
+2026-05-02 20:06:15,017 - INFO - 10 notícias encontradas para 'anvisa'
+2026-05-02 20:06:15,019 - INFO - Buscando notícias | palavra='ANVISA' | tentativa=1
+2026-05-02 20:06:15,830 - ERROR - Erro HTTP 429 para 'ANVISA' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=ANVISA&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=93df50dd0f768f29006883aff2204880
+2026-05-02 20:06:16,833 - INFO - CSV salvo com sucesso em: c:\Users\u1174978\OneDrive - IQVIA\Documents\Geral\Importantes\MACKENZIE\5 - SEMESTRE\TCC\sistema-inteligencia-prescritiva-para-industria-farmaceutica\data\extracao_noticias_gnews.csv
+2026-05-02 20:11:04,477 - INFO - Iniciando processamento com API_KEY_1
+2026-05-02 20:11:04,478 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-05-02 20:11:05,600 - INFO - 10 notícias encontradas para 'Anvisa'
+2026-05-02 20:11:05,600 - INFO - Buscando notícias | palavra='anvisa' | tentativa=1
+2026-05-02 20:11:06,349 - ERROR - Erro HTTP 429 para 'anvisa' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=anvisa&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=93df50dd0f768f29006883aff2204880
+2026-05-02 20:11:06,354 - INFO - Buscando notícias | palavra='ANVISA' | tentativa=1
+2026-05-02 20:11:07,299 - INFO - 10 notícias encontradas para 'ANVISA'
+2026-05-02 20:11:08,309 - INFO - CSV salvo com sucesso em: c:\Users\u1174978\OneDrive - IQVIA\Documents\Geral\Importantes\MACKENZIE\5 - SEMESTRE\TCC\sistema-inteligencia-prescritiva-para-industria-farmaceutica\data\extracao_noticias_gnews.csv
+2026-05-03 19:11:53,411 - INFO - Iniciando processamento com API_KEY_1
+2026-05-03 19:11:53,411 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-05-03 19:11:54,646 - INFO - 10 notícias encontradas para 'Anvisa'
+2026-05-03 19:11:54,648 - INFO - Buscando notícias | palavra='anvisa' | tentativa=1
+2026-05-03 19:11:55,476 - ERROR - Erro HTTP 429 para 'anvisa' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=anvisa&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=93df50dd0f768f29006883aff2204880
+2026-05-03 19:11:55,476 - INFO - Buscando notícias | palavra='ANVISA' | tentativa=1
+2026-05-03 19:11:56,471 - INFO - 10 notícias encontradas para 'ANVISA'
+2026-05-03 19:11:57,479 - INFO - CSV salvo com sucesso em: c:\Users\u1174978\OneDrive - IQVIA\Documents\Geral\Importantes\MACKENZIE\5 - SEMESTRE\TCC\sistema-inteligencia-prescritiva-para-industria-farmaceutica\data\extracao_noticias_gnews.csv
+2026-05-05 00:01:40,431 - INFO - Iniciando processamento com API_KEY_1
+2026-05-05 00:01:40,433 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-05-05 00:01:41,589 - INFO - 10 notícias encontradas para 'Anvisa'
+2026-05-05 00:01:41,589 - INFO - Buscando notícias | palavra='anvisa' | tentativa=1
+2026-05-05 00:01:42,436 - ERROR - Erro HTTP 429 para 'anvisa' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=anvisa&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=93df50dd0f768f29006883aff2204880
+2026-05-05 00:01:42,438 - INFO - Buscando notícias | palavra='ANVISA' | tentativa=1
+2026-05-05 00:01:43,371 - INFO - 10 notícias encontradas para 'ANVISA'
+2026-05-05 00:01:44,395 - INFO - CSV salvo com sucesso em: c:\Users\u1174978\OneDrive - IQVIA\Documents\Geral\Importantes\MACKENZIE\5 - SEMESTRE\TCC\sistema-inteligencia-prescritiva-para-industria-farmaceutica\data\extracao_noticias_gnews.csv
+2026-05-07 00:05:15,446 - INFO - Iniciando processamento com API_KEY_1
+2026-05-07 00:05:15,448 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-05-07 00:05:16,848 - INFO - 10 notícias encontradas para 'Anvisa'
+2026-05-07 00:05:16,848 - INFO - Buscando notícias | palavra='anvisa' | tentativa=1
+2026-05-07 00:05:17,663 - ERROR - Erro HTTP 429 para 'anvisa' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=anvisa&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=93df50dd0f768f29006883aff2204880
+2026-05-07 00:05:17,665 - INFO - Buscando notícias | palavra='ANVISA' | tentativa=1
+2026-05-07 00:05:18,673 - INFO - 10 notícias encontradas para 'ANVISA'
+2026-05-07 00:05:19,680 - INFO - CSV salvo com sucesso em: c:\Users\u1174978\OneDrive - IQVIA\Documents\Geral\Importantes\MACKENZIE\5 - SEMESTRE\TCC\sistema-inteligencia-prescritiva-para-industria-farmaceutica\data\extracao_noticias_gnews.csv
+2026-05-07 00:10:56,993 - INFO - Iniciando processamento com API_KEY_1
+2026-05-07 00:10:56,994 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-05-07 00:10:58,543 - INFO - 10 notícias encontradas para 'Anvisa'
+2026-05-07 00:10:58,543 - INFO - Buscando notícias | palavra='anvisa' | tentativa=1
+2026-05-07 00:10:59,903 - INFO - 10 notícias encontradas para 'anvisa'
+2026-05-07 00:10:59,908 - INFO - Buscando notícias | palavra='ANVISA' | tentativa=1
+2026-05-07 00:11:01,650 - INFO - 10 notícias encontradas para 'ANVISA'
+2026-05-07 00:11:02,671 - INFO - CSV salvo com sucesso em: c:\Users\u1174978\OneDrive - IQVIA\Documents\Geral\Importantes\MACKENZIE\5 - SEMESTRE\TCC\sistema-inteligencia-prescritiva-para-industria-farmaceutica\data\extracao_noticias_gnews.csv
+2026-05-07 00:12:23,460 - INFO - Iniciando processamento com API_KEY_1
+2026-05-07 00:12:23,460 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-05-07 00:12:24,423 - INFO - 10 notícias encontradas para 'Anvisa'
+2026-05-07 00:12:24,426 - INFO - Buscando notícias | palavra='anvisa' | tentativa=1
+2026-05-07 00:12:25,195 - ERROR - Erro HTTP 429 para 'anvisa' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=anvisa&lang=pt&country=br&max=100&page=4&from=2023-01-01&to=2026-05-02&apikey=93df50dd0f768f29006883aff2204880
+2026-05-07 00:12:25,195 - INFO - Buscando notícias | palavra='ANVISA' | tentativa=1
+2026-05-07 00:12:26,794 - INFO - 10 notícias encontradas para 'ANVISA'
+2026-05-07 00:12:27,802 - INFO - CSV salvo com sucesso em: c:\Users\u1174978\OneDrive - IQVIA\Documents\Geral\Importantes\MACKENZIE\5 - SEMESTRE\TCC\sistema-inteligencia-prescritiva-para-industria-farmaceutica\data\extracao_noticias_gnews.csv
+2026-05-07 00:52:13,547 - INFO - Iniciando processamento com API_KEY_1
+2026-05-07 00:52:13,550 - INFO - Buscando notícias | palavra='Diabetes Mellitus Tipo 2' | tentativa=1
+2026-05-07 00:52:14,695 - ERROR - Erro HTTP 403 para 'Diabetes Mellitus Tipo 2' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Diabetes+Mellitus+Tipo+2&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:52:14,704 - INFO - Buscando notícias | palavra='PBM' | tentativa=1
+2026-05-07 00:52:15,513 - ERROR - Erro HTTP 403 para 'PBM' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=PBM&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:52:15,514 - INFO - Buscando notícias | palavra='empagliflozina' | tentativa=1
+2026-05-07 00:52:16,311 - ERROR - Erro HTTP 403 para 'empagliflozina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=empagliflozina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:52:16,313 - INFO - Buscando notícias | palavra='linagliptina' | tentativa=1
+2026-05-07 00:52:17,116 - ERROR - Erro HTTP 403 para 'linagliptina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=linagliptina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:52:17,117 - INFO - Buscando notícias | palavra='Inibidores de SGLT2' | tentativa=1
+2026-05-07 00:52:17,904 - ERROR - Erro HTTP 403 para 'Inibidores de SGLT2' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Inibidores+de+SGLT2&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:52:17,905 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-05-07 00:52:18,757 - ERROR - Erro HTTP 403 para 'Anvisa' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Anvisa&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:52:18,757 - INFO - Buscando notícias | palavra='obesidade' | tentativa=1
+2026-05-07 00:52:19,545 - ERROR - Erro HTTP 403 para 'obesidade' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=obesidade&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:52:19,545 - INFO - Buscando notícias | palavra='GLP-1' | tentativa=1
+2026-05-07 00:52:20,305 - ERROR - Erro HTTP 403 para 'GLP-1' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=GLP-1&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:52:20,305 - INFO - Buscando notícias | palavra='Insulina' | tentativa=1
+2026-05-07 00:52:21,072 - ERROR - Erro HTTP 403 para 'Insulina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Insulina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:52:21,073 - INFO - Buscando notícias | palavra='Degludeca' | tentativa=1
+2026-05-07 00:52:21,825 - ERROR - Erro HTTP 403 para 'Degludeca' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Degludeca&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:52:21,825 - INFO - Buscando notícias | palavra='SemaglutidaHemoglobina Glicada' | tentativa=1
+2026-05-07 00:52:22,820 - ERROR - Erro HTTP 403 para 'SemaglutidaHemoglobina Glicada' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=SemaglutidaHemoglobina+Glicada&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:52:22,820 - INFO - Buscando notícias | palavra='Gestão Metabólica' | tentativa=1
+2026-05-07 00:52:23,538 - ERROR - Erro HTTP 403 para 'Gestão Metabólica' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Gest%C3%A3o+Metab%C3%B3lica&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:52:23,538 - INFO - Buscando notícias | palavra='Metformina' | tentativa=1
+2026-05-07 00:52:24,286 - ERROR - Erro HTTP 403 para 'Metformina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Metformina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:52:24,286 - INFO - Buscando notícias | palavra='taxa de câmbio' | tentativa=1
+2026-05-07 00:52:25,035 - ERROR - Erro HTTP 403 para 'taxa de câmbio' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=taxa+de+c%C3%A2mbio&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:52:25,035 - INFO - Buscando notícias | palavra='dólar' | tentativa=1
+2026-05-07 00:52:25,785 - ERROR - Erro HTTP 403 para 'dólar' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=d%C3%B3lar&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:52:25,785 - INFO - Buscando notícias | palavra='IFA' | tentativa=1
+2026-05-07 00:52:26,500 - ERROR - Erro HTTP 403 para 'IFA' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=IFA&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:52:26,512 - INFO - Buscando notícias | palavra='reajuste CMED' | tentativa=1
+2026-05-07 00:52:27,333 - ERROR - Erro HTTP 403 para 'reajuste CMED' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=reajuste+CMED&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:52:27,347 - INFO - Buscando notícias | palavra='CONITECMACE' | tentativa=1
+2026-05-07 00:52:28,099 - ERROR - Erro HTTP 403 para 'CONITECMACE' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=CONITECMACE&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:52:29,105 - WARNING - Nenhum dado para salvar no CSV.
+2026-05-07 00:54:47,516 - INFO - Iniciando processamento com API_KEY_1
+2026-05-07 00:54:47,516 - INFO - Buscando notícias | palavra='Diabetes Mellitus Tipo 2' | tentativa=1
+2026-05-07 00:54:48,391 - ERROR - Erro HTTP 403 para 'Diabetes Mellitus Tipo 2' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Diabetes+Mellitus+Tipo+2&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:54:48,393 - INFO - Buscando notícias | palavra='PBM' | tentativa=1
+2026-05-07 00:54:49,143 - ERROR - Erro HTTP 403 para 'PBM' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=PBM&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:54:49,143 - INFO - Buscando notícias | palavra='empagliflozina' | tentativa=1
+2026-05-07 00:54:49,860 - ERROR - Erro HTTP 403 para 'empagliflozina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=empagliflozina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:54:49,860 - INFO - Buscando notícias | palavra='linagliptina' | tentativa=1
+2026-05-07 00:54:50,585 - ERROR - Erro HTTP 403 para 'linagliptina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=linagliptina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:54:50,585 - INFO - Buscando notícias | palavra='Inibidores de SGLT2' | tentativa=1
+2026-05-07 00:54:51,348 - ERROR - Erro HTTP 403 para 'Inibidores de SGLT2' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Inibidores+de+SGLT2&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:54:51,349 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-05-07 00:54:52,091 - ERROR - Erro HTTP 403 para 'Anvisa' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Anvisa&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:54:52,091 - INFO - Buscando notícias | palavra='obesidade' | tentativa=1
+2026-05-07 00:54:52,807 - ERROR - Erro HTTP 403 para 'obesidade' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=obesidade&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:54:52,807 - INFO - Buscando notícias | palavra='GLP-1' | tentativa=1
+2026-05-07 00:54:53,540 - ERROR - Erro HTTP 403 para 'GLP-1' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=GLP-1&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:54:53,540 - INFO - Buscando notícias | palavra='Insulina' | tentativa=1
+2026-05-07 00:54:54,323 - ERROR - Erro HTTP 403 para 'Insulina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Insulina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:54:54,323 - INFO - Buscando notícias | palavra='Degludeca' | tentativa=1
+2026-05-07 00:54:55,072 - ERROR - Erro HTTP 403 para 'Degludeca' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Degludeca&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:54:55,072 - INFO - Buscando notícias | palavra='SemaglutidaHemoglobina Glicada' | tentativa=1
+2026-05-07 00:54:55,805 - ERROR - Erro HTTP 403 para 'SemaglutidaHemoglobina Glicada' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=SemaglutidaHemoglobina+Glicada&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:54:55,805 - INFO - Buscando notícias | palavra='Gestão Metabólica' | tentativa=1
+2026-05-07 00:54:56,538 - ERROR - Erro HTTP 403 para 'Gestão Metabólica' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Gest%C3%A3o+Metab%C3%B3lica&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:54:56,538 - INFO - Buscando notícias | palavra='Metformina' | tentativa=1
+2026-05-07 00:54:57,287 - ERROR - Erro HTTP 403 para 'Metformina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Metformina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:54:57,287 - INFO - Buscando notícias | palavra='taxa de câmbio' | tentativa=1
+2026-05-07 00:54:58,336 - ERROR - Erro HTTP 403 para 'taxa de câmbio' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=taxa+de+c%C3%A2mbio&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:54:58,336 - INFO - Buscando notícias | palavra='dólar' | tentativa=1
+2026-05-07 00:54:59,085 - ERROR - Erro HTTP 403 para 'dólar' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=d%C3%B3lar&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:54:59,085 - INFO - Buscando notícias | palavra='IFA' | tentativa=1
+2026-05-07 00:54:59,819 - ERROR - Erro HTTP 403 para 'IFA' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=IFA&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:54:59,821 - INFO - Buscando notícias | palavra='reajuste CMED' | tentativa=1
+2026-05-07 00:55:00,551 - ERROR - Erro HTTP 403 para 'reajuste CMED' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=reajuste+CMED&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:55:00,551 - INFO - Buscando notícias | palavra='CONITECMACE' | tentativa=1
+2026-05-07 00:55:01,318 - ERROR - Erro HTTP 403 para 'CONITECMACE' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=CONITECMACE&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=0cd067e2582a76f880639ec2d27019f2
+2026-05-07 00:55:02,320 - INFO - Iniciando processamento com API_KEY_2
+2026-05-07 00:55:02,320 - INFO - Buscando notícias | palavra='Diabetes Mellitus Tipo 2' | tentativa=1
+2026-05-07 00:55:03,182 - INFO - 0 notícias encontradas para 'Diabetes Mellitus Tipo 2'
+2026-05-07 00:55:03,182 - INFO - Buscando notícias | palavra='PBM' | tentativa=1
+2026-05-07 00:55:03,964 - ERROR - Erro HTTP 429 para 'PBM' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=PBM&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4159d1663f806e8f9e8782381fb8f329
+2026-05-07 00:55:03,964 - INFO - Buscando notícias | palavra='empagliflozina' | tentativa=1
+2026-05-07 00:55:04,764 - INFO - 0 notícias encontradas para 'empagliflozina'
+2026-05-07 00:55:04,764 - INFO - Buscando notícias | palavra='linagliptina' | tentativa=1
+2026-05-07 00:55:05,503 - ERROR - Erro HTTP 429 para 'linagliptina' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=linagliptina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4159d1663f806e8f9e8782381fb8f329
+2026-05-07 00:55:05,503 - INFO - Buscando notícias | palavra='Inibidores de SGLT2' | tentativa=1
+2026-05-07 00:55:06,263 - INFO - 0 notícias encontradas para 'Inibidores de SGLT2'
+2026-05-07 00:55:06,263 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-05-07 00:55:07,014 - ERROR - Erro HTTP 429 para 'Anvisa' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=Anvisa&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4159d1663f806e8f9e8782381fb8f329
+2026-05-07 00:55:07,014 - INFO - Buscando notícias | palavra='obesidade' | tentativa=1
+2026-05-07 00:55:07,896 - INFO - 10 notícias encontradas para 'obesidade'
+2026-05-07 00:55:07,912 - INFO - Buscando notícias | palavra='GLP-1' | tentativa=1
+2026-05-07 00:55:08,662 - ERROR - Erro HTTP 429 para 'GLP-1' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=GLP-1&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4159d1663f806e8f9e8782381fb8f329
+2026-05-07 00:55:08,663 - INFO - Buscando notícias | palavra='Insulina' | tentativa=1
+2026-05-07 00:55:09,561 - INFO - 10 notícias encontradas para 'Insulina'
+2026-05-07 00:55:09,563 - INFO - Buscando notícias | palavra='Degludeca' | tentativa=1
+2026-05-07 00:55:10,292 - ERROR - Erro HTTP 429 para 'Degludeca' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=Degludeca&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4159d1663f806e8f9e8782381fb8f329
+2026-05-07 00:55:10,293 - INFO - Buscando notícias | palavra='SemaglutidaHemoglobina Glicada' | tentativa=1
+2026-05-07 00:55:11,042 - INFO - 0 notícias encontradas para 'SemaglutidaHemoglobina Glicada'
+2026-05-07 00:55:11,057 - INFO - Buscando notícias | palavra='Gestão Metabólica' | tentativa=1
+2026-05-07 00:55:11,791 - ERROR - Erro HTTP 429 para 'Gestão Metabólica' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=Gest%C3%A3o+Metab%C3%B3lica&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4159d1663f806e8f9e8782381fb8f329
+2026-05-07 00:55:11,791 - INFO - Buscando notícias | palavra='Metformina' | tentativa=1
+2026-05-07 00:55:12,640 - INFO - 0 notícias encontradas para 'Metformina'
+2026-05-07 00:55:12,640 - INFO - Buscando notícias | palavra='taxa de câmbio' | tentativa=1
+2026-05-07 00:55:13,390 - ERROR - Erro HTTP 429 para 'taxa de câmbio' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=taxa+de+c%C3%A2mbio&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4159d1663f806e8f9e8782381fb8f329
+2026-05-07 00:55:13,390 - INFO - Buscando notícias | palavra='dólar' | tentativa=1
+2026-05-07 00:55:14,290 - INFO - 10 notícias encontradas para 'dólar'
+2026-05-07 00:55:14,290 - INFO - Buscando notícias | palavra='IFA' | tentativa=1
+2026-05-07 00:55:15,042 - ERROR - Erro HTTP 429 para 'IFA' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=IFA&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4159d1663f806e8f9e8782381fb8f329
+2026-05-07 00:55:15,042 - INFO - Buscando notícias | palavra='reajuste CMED' | tentativa=1
+2026-05-07 00:55:15,855 - INFO - 1 notícias encontradas para 'reajuste CMED'
+2026-05-07 00:55:15,855 - INFO - Buscando notícias | palavra='CONITECMACE' | tentativa=1
+2026-05-07 00:55:16,604 - ERROR - Erro HTTP 429 para 'CONITECMACE' | tentativa=1 | erro=429 Client Error: Too Many Requests for url: https://gnews.io/api/v4/search?q=CONITECMACE&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4159d1663f806e8f9e8782381fb8f329
+2026-05-07 00:55:17,608 - INFO - Iniciando processamento com API_KEY_3
+2026-05-07 00:55:17,608 - INFO - Buscando notícias | palavra='Diabetes Mellitus Tipo 2' | tentativa=1
+2026-05-07 00:55:18,353 - ERROR - Erro HTTP 403 para 'Diabetes Mellitus Tipo 2' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Diabetes+Mellitus+Tipo+2&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=70bfe2df201faf8482c3b2f8e2441db4
+2026-05-07 00:55:18,353 - INFO - Buscando notícias | palavra='PBM' | tentativa=1
+2026-05-07 00:55:19,085 - ERROR - Erro HTTP 403 para 'PBM' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=PBM&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=70bfe2df201faf8482c3b2f8e2441db4
+2026-05-07 00:55:19,086 - INFO - Buscando notícias | palavra='empagliflozina' | tentativa=1
+2026-05-07 00:55:20,056 - ERROR - Erro HTTP 403 para 'empagliflozina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=empagliflozina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=70bfe2df201faf8482c3b2f8e2441db4
+2026-05-07 00:55:20,056 - INFO - Buscando notícias | palavra='linagliptina' | tentativa=1
+2026-05-07 00:55:20,806 - ERROR - Erro HTTP 403 para 'linagliptina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=linagliptina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=70bfe2df201faf8482c3b2f8e2441db4
+2026-05-07 00:55:20,806 - INFO - Buscando notícias | palavra='Inibidores de SGLT2' | tentativa=1
+2026-05-07 00:55:21,567 - ERROR - Erro HTTP 403 para 'Inibidores de SGLT2' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Inibidores+de+SGLT2&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=70bfe2df201faf8482c3b2f8e2441db4
+2026-05-07 00:55:21,567 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-05-07 00:55:22,294 - ERROR - Erro HTTP 403 para 'Anvisa' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Anvisa&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=70bfe2df201faf8482c3b2f8e2441db4
+2026-05-07 00:55:22,295 - INFO - Buscando notícias | palavra='obesidade' | tentativa=1
+2026-05-07 00:55:23,060 - ERROR - Erro HTTP 403 para 'obesidade' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=obesidade&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=70bfe2df201faf8482c3b2f8e2441db4
+2026-05-07 00:55:23,060 - INFO - Buscando notícias | palavra='GLP-1' | tentativa=1
+2026-05-07 00:55:23,802 - ERROR - Erro HTTP 403 para 'GLP-1' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=GLP-1&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=70bfe2df201faf8482c3b2f8e2441db4
+2026-05-07 00:55:23,803 - INFO - Buscando notícias | palavra='Insulina' | tentativa=1
+2026-05-07 00:55:24,531 - ERROR - Erro HTTP 403 para 'Insulina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Insulina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=70bfe2df201faf8482c3b2f8e2441db4
+2026-05-07 00:55:24,543 - INFO - Buscando notícias | palavra='Degludeca' | tentativa=1
+2026-05-07 00:55:25,295 - ERROR - Erro HTTP 403 para 'Degludeca' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Degludeca&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=70bfe2df201faf8482c3b2f8e2441db4
+2026-05-07 00:55:25,297 - INFO - Buscando notícias | palavra='SemaglutidaHemoglobina Glicada' | tentativa=1
+2026-05-07 00:55:26,062 - ERROR - Erro HTTP 403 para 'SemaglutidaHemoglobina Glicada' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=SemaglutidaHemoglobina+Glicada&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=70bfe2df201faf8482c3b2f8e2441db4
+2026-05-07 00:55:26,063 - INFO - Buscando notícias | palavra='Gestão Metabólica' | tentativa=1
+2026-05-07 00:55:26,829 - ERROR - Erro HTTP 403 para 'Gestão Metabólica' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Gest%C3%A3o+Metab%C3%B3lica&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=70bfe2df201faf8482c3b2f8e2441db4
+2026-05-07 00:55:26,830 - INFO - Buscando notícias | palavra='Metformina' | tentativa=1
+2026-05-07 00:55:27,606 - ERROR - Erro HTTP 403 para 'Metformina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Metformina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=70bfe2df201faf8482c3b2f8e2441db4
+2026-05-07 00:55:27,607 - INFO - Buscando notícias | palavra='taxa de câmbio' | tentativa=1
+2026-05-07 00:55:28,331 - ERROR - Erro HTTP 403 para 'taxa de câmbio' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=taxa+de+c%C3%A2mbio&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=70bfe2df201faf8482c3b2f8e2441db4
+2026-05-07 00:55:28,331 - INFO - Buscando notícias | palavra='dólar' | tentativa=1
+2026-05-07 00:55:29,104 - ERROR - Erro HTTP 403 para 'dólar' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=d%C3%B3lar&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=70bfe2df201faf8482c3b2f8e2441db4
+2026-05-07 00:55:29,105 - INFO - Buscando notícias | palavra='IFA' | tentativa=1
+2026-05-07 00:55:29,860 - ERROR - Erro HTTP 403 para 'IFA' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=IFA&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=70bfe2df201faf8482c3b2f8e2441db4
+2026-05-07 00:55:29,860 - INFO - Buscando notícias | palavra='reajuste CMED' | tentativa=1
+2026-05-07 00:55:30,630 - ERROR - Erro HTTP 403 para 'reajuste CMED' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=reajuste+CMED&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=70bfe2df201faf8482c3b2f8e2441db4
+2026-05-07 00:55:30,630 - INFO - Buscando notícias | palavra='CONITECMACE' | tentativa=1
+2026-05-07 00:55:31,376 - ERROR - Erro HTTP 403 para 'CONITECMACE' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=CONITECMACE&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=70bfe2df201faf8482c3b2f8e2441db4
+2026-05-07 00:55:32,393 - INFO - Iniciando processamento com API_KEY_4
+2026-05-07 00:55:32,393 - INFO - Buscando notícias | palavra='Diabetes Mellitus Tipo 2' | tentativa=1
+2026-05-07 00:55:33,174 - ERROR - Erro HTTP 403 para 'Diabetes Mellitus Tipo 2' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Diabetes+Mellitus+Tipo+2&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=89e20a796a2f971bfb339fd1afabf502
+2026-05-07 00:55:33,174 - INFO - Buscando notícias | palavra='PBM' | tentativa=1
+2026-05-07 00:55:34,240 - ERROR - Erro HTTP 403 para 'PBM' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=PBM&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=89e20a796a2f971bfb339fd1afabf502
+2026-05-07 00:55:34,240 - INFO - Buscando notícias | palavra='empagliflozina' | tentativa=1
+2026-05-07 00:55:35,006 - ERROR - Erro HTTP 403 para 'empagliflozina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=empagliflozina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=89e20a796a2f971bfb339fd1afabf502
+2026-05-07 00:55:35,006 - INFO - Buscando notícias | palavra='linagliptina' | tentativa=1
+2026-05-07 00:55:35,748 - ERROR - Erro HTTP 403 para 'linagliptina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=linagliptina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=89e20a796a2f971bfb339fd1afabf502
+2026-05-07 00:55:35,748 - INFO - Buscando notícias | palavra='Inibidores de SGLT2' | tentativa=1
+2026-05-07 00:55:36,488 - ERROR - Erro HTTP 403 para 'Inibidores de SGLT2' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Inibidores+de+SGLT2&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=89e20a796a2f971bfb339fd1afabf502
+2026-05-07 00:55:36,488 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-05-07 00:55:37,244 - ERROR - Erro HTTP 403 para 'Anvisa' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Anvisa&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=89e20a796a2f971bfb339fd1afabf502
+2026-05-07 00:55:37,245 - INFO - Buscando notícias | palavra='obesidade' | tentativa=1
+2026-05-07 00:55:38,031 - ERROR - Erro HTTP 403 para 'obesidade' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=obesidade&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=89e20a796a2f971bfb339fd1afabf502
+2026-05-07 00:55:38,033 - INFO - Buscando notícias | palavra='GLP-1' | tentativa=1
+2026-05-07 00:55:38,794 - ERROR - Erro HTTP 403 para 'GLP-1' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=GLP-1&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=89e20a796a2f971bfb339fd1afabf502
+2026-05-07 00:55:38,796 - INFO - Buscando notícias | palavra='Insulina' | tentativa=1
+2026-05-07 00:55:39,554 - ERROR - Erro HTTP 403 para 'Insulina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Insulina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=89e20a796a2f971bfb339fd1afabf502
+2026-05-07 00:55:39,555 - INFO - Buscando notícias | palavra='Degludeca' | tentativa=1
+2026-05-07 00:55:40,418 - ERROR - Erro HTTP 403 para 'Degludeca' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Degludeca&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=89e20a796a2f971bfb339fd1afabf502
+2026-05-07 00:55:40,418 - INFO - Buscando notícias | palavra='SemaglutidaHemoglobina Glicada' | tentativa=1
+2026-05-07 00:55:41,575 - ERROR - Erro HTTP 403 para 'SemaglutidaHemoglobina Glicada' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=SemaglutidaHemoglobina+Glicada&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=89e20a796a2f971bfb339fd1afabf502
+2026-05-07 00:55:41,577 - INFO - Buscando notícias | palavra='Gestão Metabólica' | tentativa=1
+2026-05-07 00:55:42,818 - ERROR - Erro HTTP 403 para 'Gestão Metabólica' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Gest%C3%A3o+Metab%C3%B3lica&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=89e20a796a2f971bfb339fd1afabf502
+2026-05-07 00:55:42,819 - INFO - Buscando notícias | palavra='Metformina' | tentativa=1
+2026-05-07 00:55:43,893 - ERROR - Erro HTTP 403 para 'Metformina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Metformina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=89e20a796a2f971bfb339fd1afabf502
+2026-05-07 00:55:43,894 - INFO - Buscando notícias | palavra='taxa de câmbio' | tentativa=1
+2026-05-07 00:55:44,720 - ERROR - Erro HTTP 403 para 'taxa de câmbio' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=taxa+de+c%C3%A2mbio&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=89e20a796a2f971bfb339fd1afabf502
+2026-05-07 00:55:44,723 - INFO - Buscando notícias | palavra='dólar' | tentativa=1
+2026-05-07 00:55:45,602 - ERROR - Erro HTTP 403 para 'dólar' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=d%C3%B3lar&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=89e20a796a2f971bfb339fd1afabf502
+2026-05-07 00:55:45,603 - INFO - Buscando notícias | palavra='IFA' | tentativa=1
+2026-05-07 00:55:46,729 - ERROR - Erro HTTP 403 para 'IFA' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=IFA&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=89e20a796a2f971bfb339fd1afabf502
+2026-05-07 00:55:46,729 - INFO - Buscando notícias | palavra='reajuste CMED' | tentativa=1
+2026-05-07 00:55:47,837 - ERROR - Erro HTTP 403 para 'reajuste CMED' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=reajuste+CMED&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=89e20a796a2f971bfb339fd1afabf502
+2026-05-07 00:55:47,839 - INFO - Buscando notícias | palavra='CONITECMACE' | tentativa=1
+2026-05-07 00:55:48,782 - ERROR - Erro HTTP 403 para 'CONITECMACE' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=CONITECMACE&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=89e20a796a2f971bfb339fd1afabf502
+2026-05-07 00:55:49,792 - INFO - Iniciando processamento com API_KEY_5
+2026-05-07 00:55:49,792 - INFO - Buscando notícias | palavra='Diabetes Mellitus Tipo 2' | tentativa=1
+2026-05-07 00:55:50,788 - ERROR - Erro HTTP 403 para 'Diabetes Mellitus Tipo 2' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Diabetes+Mellitus+Tipo+2&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=bc907422125bf4d22730eb9965c43037
+2026-05-07 00:55:50,790 - INFO - Buscando notícias | palavra='PBM' | tentativa=1
+2026-05-07 00:55:51,660 - ERROR - Erro HTTP 403 para 'PBM' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=PBM&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=bc907422125bf4d22730eb9965c43037
+2026-05-07 00:55:51,664 - INFO - Buscando notícias | palavra='empagliflozina' | tentativa=1
+2026-05-07 00:55:52,465 - ERROR - Erro HTTP 403 para 'empagliflozina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=empagliflozina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=bc907422125bf4d22730eb9965c43037
+2026-05-07 00:55:52,467 - INFO - Buscando notícias | palavra='linagliptina' | tentativa=1
+2026-05-07 00:55:53,281 - ERROR - Erro HTTP 403 para 'linagliptina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=linagliptina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=bc907422125bf4d22730eb9965c43037
+2026-05-07 00:55:53,281 - INFO - Buscando notícias | palavra='Inibidores de SGLT2' | tentativa=1
+2026-05-07 00:55:54,359 - ERROR - Erro HTTP 403 para 'Inibidores de SGLT2' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Inibidores+de+SGLT2&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=bc907422125bf4d22730eb9965c43037
+2026-05-07 00:55:54,359 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-05-07 00:55:55,402 - ERROR - Erro HTTP 403 para 'Anvisa' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Anvisa&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=bc907422125bf4d22730eb9965c43037
+2026-05-07 00:55:55,404 - INFO - Buscando notícias | palavra='obesidade' | tentativa=1
+2026-05-07 00:55:56,455 - ERROR - Erro HTTP 403 para 'obesidade' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=obesidade&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=bc907422125bf4d22730eb9965c43037
+2026-05-07 00:55:56,462 - INFO - Buscando notícias | palavra='GLP-1' | tentativa=1
+2026-05-07 00:55:57,545 - ERROR - Erro HTTP 403 para 'GLP-1' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=GLP-1&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=bc907422125bf4d22730eb9965c43037
+2026-05-07 00:55:57,548 - INFO - Buscando notícias | palavra='Insulina' | tentativa=1
+2026-05-07 00:55:58,508 - ERROR - Erro HTTP 403 para 'Insulina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Insulina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=bc907422125bf4d22730eb9965c43037
+2026-05-07 00:55:58,509 - INFO - Buscando notícias | palavra='Degludeca' | tentativa=1
+2026-05-07 00:55:59,483 - ERROR - Erro HTTP 403 para 'Degludeca' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Degludeca&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=bc907422125bf4d22730eb9965c43037
+2026-05-07 00:55:59,485 - INFO - Buscando notícias | palavra='SemaglutidaHemoglobina Glicada' | tentativa=1
+2026-05-07 00:56:00,270 - ERROR - Erro HTTP 403 para 'SemaglutidaHemoglobina Glicada' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=SemaglutidaHemoglobina+Glicada&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=bc907422125bf4d22730eb9965c43037
+2026-05-07 00:56:00,272 - INFO - Buscando notícias | palavra='Gestão Metabólica' | tentativa=1
+2026-05-07 00:56:01,067 - ERROR - Erro HTTP 403 para 'Gestão Metabólica' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Gest%C3%A3o+Metab%C3%B3lica&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=bc907422125bf4d22730eb9965c43037
+2026-05-07 00:56:01,070 - INFO - Buscando notícias | palavra='Metformina' | tentativa=1
+2026-05-07 00:56:01,913 - ERROR - Erro HTTP 403 para 'Metformina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Metformina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=bc907422125bf4d22730eb9965c43037
+2026-05-07 00:56:01,916 - INFO - Buscando notícias | palavra='taxa de câmbio' | tentativa=1
+2026-05-07 00:56:02,763 - ERROR - Erro HTTP 403 para 'taxa de câmbio' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=taxa+de+c%C3%A2mbio&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=bc907422125bf4d22730eb9965c43037
+2026-05-07 00:56:02,765 - INFO - Buscando notícias | palavra='dólar' | tentativa=1
+2026-05-07 00:56:04,182 - ERROR - Erro HTTP 403 para 'dólar' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=d%C3%B3lar&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=bc907422125bf4d22730eb9965c43037
+2026-05-07 00:56:04,182 - INFO - Buscando notícias | palavra='IFA' | tentativa=1
+2026-05-07 00:56:05,409 - ERROR - Erro HTTP 403 para 'IFA' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=IFA&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=bc907422125bf4d22730eb9965c43037
+2026-05-07 00:56:05,411 - INFO - Buscando notícias | palavra='reajuste CMED' | tentativa=1
+2026-05-07 00:56:06,730 - ERROR - Erro HTTP 403 para 'reajuste CMED' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=reajuste+CMED&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=bc907422125bf4d22730eb9965c43037
+2026-05-07 00:56:06,730 - INFO - Buscando notícias | palavra='CONITECMACE' | tentativa=1
+2026-05-07 00:56:07,737 - ERROR - Erro HTTP 403 para 'CONITECMACE' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=CONITECMACE&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=bc907422125bf4d22730eb9965c43037
+2026-05-07 00:56:08,740 - INFO - Iniciando processamento com API_KEY_6
+2026-05-07 00:56:08,740 - INFO - Buscando notícias | palavra='Diabetes Mellitus Tipo 2' | tentativa=1
+2026-05-07 00:56:09,678 - ERROR - Erro HTTP 403 para 'Diabetes Mellitus Tipo 2' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Diabetes+Mellitus+Tipo+2&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=edb255d522be6478ae6a490a370bf056
+2026-05-07 00:56:09,678 - INFO - Buscando notícias | palavra='PBM' | tentativa=1
+2026-05-07 00:56:10,442 - ERROR - Erro HTTP 403 para 'PBM' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=PBM&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=edb255d522be6478ae6a490a370bf056
+2026-05-07 00:56:10,442 - INFO - Buscando notícias | palavra='empagliflozina' | tentativa=1
+2026-05-07 00:56:11,192 - ERROR - Erro HTTP 403 para 'empagliflozina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=empagliflozina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=edb255d522be6478ae6a490a370bf056
+2026-05-07 00:56:11,192 - INFO - Buscando notícias | palavra='linagliptina' | tentativa=1
+2026-05-07 00:56:11,992 - ERROR - Erro HTTP 403 para 'linagliptina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=linagliptina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=edb255d522be6478ae6a490a370bf056
+2026-05-07 00:56:11,992 - INFO - Buscando notícias | palavra='Inibidores de SGLT2' | tentativa=1
+2026-05-07 00:56:12,808 - ERROR - Erro HTTP 403 para 'Inibidores de SGLT2' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Inibidores+de+SGLT2&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=edb255d522be6478ae6a490a370bf056
+2026-05-07 00:56:12,809 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-05-07 00:56:13,593 - ERROR - Erro HTTP 403 para 'Anvisa' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Anvisa&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=edb255d522be6478ae6a490a370bf056
+2026-05-07 00:56:13,594 - INFO - Buscando notícias | palavra='obesidade' | tentativa=1
+2026-05-07 00:56:14,464 - ERROR - Erro HTTP 403 para 'obesidade' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=obesidade&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=edb255d522be6478ae6a490a370bf056
+2026-05-07 00:56:14,464 - INFO - Buscando notícias | palavra='GLP-1' | tentativa=1
+2026-05-07 00:56:15,273 - ERROR - Erro HTTP 403 para 'GLP-1' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=GLP-1&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=edb255d522be6478ae6a490a370bf056
+2026-05-07 00:56:15,273 - INFO - Buscando notícias | palavra='Insulina' | tentativa=1
+2026-05-07 00:56:16,122 - ERROR - Erro HTTP 403 para 'Insulina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Insulina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=edb255d522be6478ae6a490a370bf056
+2026-05-07 00:56:16,122 - INFO - Buscando notícias | palavra='Degludeca' | tentativa=1
+2026-05-07 00:56:16,971 - ERROR - Erro HTTP 403 para 'Degludeca' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Degludeca&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=edb255d522be6478ae6a490a370bf056
+2026-05-07 00:56:16,971 - INFO - Buscando notícias | palavra='SemaglutidaHemoglobina Glicada' | tentativa=1
+2026-05-07 00:56:17,895 - ERROR - Erro HTTP 403 para 'SemaglutidaHemoglobina Glicada' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=SemaglutidaHemoglobina+Glicada&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=edb255d522be6478ae6a490a370bf056
+2026-05-07 00:56:17,897 - INFO - Buscando notícias | palavra='Gestão Metabólica' | tentativa=1
+2026-05-07 00:56:18,787 - ERROR - Erro HTTP 403 para 'Gestão Metabólica' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Gest%C3%A3o+Metab%C3%B3lica&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=edb255d522be6478ae6a490a370bf056
+2026-05-07 00:56:18,787 - INFO - Buscando notícias | palavra='Metformina' | tentativa=1
+2026-05-07 00:56:19,687 - ERROR - Erro HTTP 403 para 'Metformina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Metformina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=edb255d522be6478ae6a490a370bf056
+2026-05-07 00:56:19,687 - INFO - Buscando notícias | palavra='taxa de câmbio' | tentativa=1
+2026-05-07 00:56:20,927 - ERROR - Erro HTTP 403 para 'taxa de câmbio' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=taxa+de+c%C3%A2mbio&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=edb255d522be6478ae6a490a370bf056
+2026-05-07 00:56:20,928 - INFO - Buscando notícias | palavra='dólar' | tentativa=1
+2026-05-07 00:56:21,995 - ERROR - Erro HTTP 403 para 'dólar' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=d%C3%B3lar&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=edb255d522be6478ae6a490a370bf056
+2026-05-07 00:56:21,996 - INFO - Buscando notícias | palavra='IFA' | tentativa=1
+2026-05-07 00:56:22,785 - ERROR - Erro HTTP 403 para 'IFA' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=IFA&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=edb255d522be6478ae6a490a370bf056
+2026-05-07 00:56:22,785 - INFO - Buscando notícias | palavra='reajuste CMED' | tentativa=1
+2026-05-07 00:56:23,600 - ERROR - Erro HTTP 403 para 'reajuste CMED' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=reajuste+CMED&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=edb255d522be6478ae6a490a370bf056
+2026-05-07 00:56:23,609 - INFO - Buscando notícias | palavra='CONITECMACE' | tentativa=1
+2026-05-07 00:56:24,772 - ERROR - Erro HTTP 403 para 'CONITECMACE' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=CONITECMACE&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=edb255d522be6478ae6a490a370bf056
+2026-05-07 00:56:25,784 - INFO - Iniciando processamento com API_KEY_7
+2026-05-07 00:56:25,784 - INFO - Buscando notícias | palavra='Diabetes Mellitus Tipo 2' | tentativa=1
+2026-05-07 00:56:27,082 - ERROR - Erro HTTP 403 para 'Diabetes Mellitus Tipo 2' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Diabetes+Mellitus+Tipo+2&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=9174c765dff4291243d8b16cdd29a72b
+2026-05-07 00:56:27,082 - INFO - Buscando notícias | palavra='PBM' | tentativa=1
+2026-05-07 00:56:28,397 - ERROR - Erro HTTP 403 para 'PBM' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=PBM&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=9174c765dff4291243d8b16cdd29a72b
+2026-05-07 00:56:28,397 - INFO - Buscando notícias | palavra='empagliflozina' | tentativa=1
+2026-05-07 00:56:29,530 - ERROR - Erro HTTP 403 para 'empagliflozina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=empagliflozina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=9174c765dff4291243d8b16cdd29a72b
+2026-05-07 00:56:29,530 - INFO - Buscando notícias | palavra='linagliptina' | tentativa=1
+2026-05-07 00:56:30,601 - ERROR - Erro HTTP 403 para 'linagliptina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=linagliptina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=9174c765dff4291243d8b16cdd29a72b
+2026-05-07 00:56:30,603 - INFO - Buscando notícias | palavra='Inibidores de SGLT2' | tentativa=1
+2026-05-07 00:56:31,582 - ERROR - Erro HTTP 403 para 'Inibidores de SGLT2' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Inibidores+de+SGLT2&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=9174c765dff4291243d8b16cdd29a72b
+2026-05-07 00:56:31,584 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-05-07 00:56:33,084 - ERROR - Erro HTTP 403 para 'Anvisa' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Anvisa&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=9174c765dff4291243d8b16cdd29a72b
+2026-05-07 00:56:33,087 - INFO - Buscando notícias | palavra='obesidade' | tentativa=1
+2026-05-07 00:56:34,526 - ERROR - Erro HTTP 403 para 'obesidade' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=obesidade&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=9174c765dff4291243d8b16cdd29a72b
+2026-05-07 00:56:34,530 - INFO - Buscando notícias | palavra='GLP-1' | tentativa=1
+2026-05-07 00:56:35,726 - ERROR - Erro HTTP 403 para 'GLP-1' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=GLP-1&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=9174c765dff4291243d8b16cdd29a72b
+2026-05-07 00:56:35,731 - INFO - Buscando notícias | palavra='Insulina' | tentativa=1
+2026-05-07 00:56:37,200 - ERROR - Erro HTTP 403 para 'Insulina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Insulina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=9174c765dff4291243d8b16cdd29a72b
+2026-05-07 00:56:37,200 - INFO - Buscando notícias | palavra='Degludeca' | tentativa=1
+2026-05-07 00:56:38,257 - ERROR - Erro HTTP 403 para 'Degludeca' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Degludeca&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=9174c765dff4291243d8b16cdd29a72b
+2026-05-07 00:56:38,257 - INFO - Buscando notícias | palavra='SemaglutidaHemoglobina Glicada' | tentativa=1
+2026-05-07 00:56:39,323 - ERROR - Erro HTTP 403 para 'SemaglutidaHemoglobina Glicada' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=SemaglutidaHemoglobina+Glicada&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=9174c765dff4291243d8b16cdd29a72b
+2026-05-07 00:56:39,323 - INFO - Buscando notícias | palavra='Gestão Metabólica' | tentativa=1
+2026-05-07 00:56:40,389 - ERROR - Erro HTTP 403 para 'Gestão Metabólica' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Gest%C3%A3o+Metab%C3%B3lica&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=9174c765dff4291243d8b16cdd29a72b
+2026-05-07 00:56:40,389 - INFO - Buscando notícias | palavra='Metformina' | tentativa=1
+2026-05-07 00:56:41,471 - ERROR - Erro HTTP 403 para 'Metformina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Metformina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=9174c765dff4291243d8b16cdd29a72b
+2026-05-07 00:56:41,471 - INFO - Buscando notícias | palavra='taxa de câmbio' | tentativa=1
+2026-05-07 00:56:42,521 - ERROR - Erro HTTP 403 para 'taxa de câmbio' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=taxa+de+c%C3%A2mbio&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=9174c765dff4291243d8b16cdd29a72b
+2026-05-07 00:56:42,537 - INFO - Buscando notícias | palavra='dólar' | tentativa=1
+2026-05-07 00:56:43,474 - ERROR - Erro HTTP 403 para 'dólar' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=d%C3%B3lar&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=9174c765dff4291243d8b16cdd29a72b
+2026-05-07 00:56:43,475 - INFO - Buscando notícias | palavra='IFA' | tentativa=1
+2026-05-07 00:56:44,586 - ERROR - Erro HTTP 403 para 'IFA' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=IFA&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=9174c765dff4291243d8b16cdd29a72b
+2026-05-07 00:56:44,586 - INFO - Buscando notícias | palavra='reajuste CMED' | tentativa=1
+2026-05-07 00:56:45,508 - ERROR - Erro HTTP 403 para 'reajuste CMED' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=reajuste+CMED&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=9174c765dff4291243d8b16cdd29a72b
+2026-05-07 00:56:45,510 - INFO - Buscando notícias | palavra='CONITECMACE' | tentativa=1
+2026-05-07 00:56:46,576 - ERROR - Erro HTTP 403 para 'CONITECMACE' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=CONITECMACE&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=9174c765dff4291243d8b16cdd29a72b
+2026-05-07 00:56:47,580 - INFO - Iniciando processamento com API_KEY_8
+2026-05-07 00:56:47,580 - INFO - Buscando notícias | palavra='Diabetes Mellitus Tipo 2' | tentativa=1
+2026-05-07 00:56:49,333 - ERROR - Erro HTTP 403 para 'Diabetes Mellitus Tipo 2' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Diabetes+Mellitus+Tipo+2&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=44550a40ea104fc24e3afe44f502ad95
+2026-05-07 00:56:49,333 - INFO - Buscando notícias | palavra='PBM' | tentativa=1
+2026-05-07 00:56:50,341 - ERROR - Erro HTTP 403 para 'PBM' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=PBM&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=44550a40ea104fc24e3afe44f502ad95
+2026-05-07 00:56:50,341 - INFO - Buscando notícias | palavra='empagliflozina' | tentativa=1
+2026-05-07 00:56:51,276 - ERROR - Erro HTTP 403 para 'empagliflozina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=empagliflozina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=44550a40ea104fc24e3afe44f502ad95
+2026-05-07 00:56:51,278 - INFO - Buscando notícias | palavra='linagliptina' | tentativa=1
+2026-05-07 00:56:52,681 - ERROR - Erro HTTP 403 para 'linagliptina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=linagliptina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=44550a40ea104fc24e3afe44f502ad95
+2026-05-07 00:56:52,681 - INFO - Buscando notícias | palavra='Inibidores de SGLT2' | tentativa=1
+2026-05-07 00:56:53,863 - ERROR - Erro HTTP 403 para 'Inibidores de SGLT2' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Inibidores+de+SGLT2&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=44550a40ea104fc24e3afe44f502ad95
+2026-05-07 00:56:53,863 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-05-07 00:56:54,946 - ERROR - Erro HTTP 403 para 'Anvisa' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Anvisa&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=44550a40ea104fc24e3afe44f502ad95
+2026-05-07 00:56:54,946 - INFO - Buscando notícias | palavra='obesidade' | tentativa=1
+2026-05-07 00:56:55,929 - ERROR - Erro HTTP 403 para 'obesidade' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=obesidade&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=44550a40ea104fc24e3afe44f502ad95
+2026-05-07 00:56:55,929 - INFO - Buscando notícias | palavra='GLP-1' | tentativa=1
+2026-05-07 00:56:56,780 - ERROR - Erro HTTP 403 para 'GLP-1' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=GLP-1&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=44550a40ea104fc24e3afe44f502ad95
+2026-05-07 00:56:56,782 - INFO - Buscando notícias | palavra='Insulina' | tentativa=1
+2026-05-07 00:56:57,615 - ERROR - Erro HTTP 403 para 'Insulina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Insulina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=44550a40ea104fc24e3afe44f502ad95
+2026-05-07 00:56:57,617 - INFO - Buscando notícias | palavra='Degludeca' | tentativa=1
+2026-05-07 00:56:58,460 - ERROR - Erro HTTP 403 para 'Degludeca' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Degludeca&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=44550a40ea104fc24e3afe44f502ad95
+2026-05-07 00:56:58,476 - INFO - Buscando notícias | palavra='SemaglutidaHemoglobina Glicada' | tentativa=1
+2026-05-07 00:56:59,348 - ERROR - Erro HTTP 403 para 'SemaglutidaHemoglobina Glicada' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=SemaglutidaHemoglobina+Glicada&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=44550a40ea104fc24e3afe44f502ad95
+2026-05-07 00:56:59,351 - INFO - Buscando notícias | palavra='Gestão Metabólica' | tentativa=1
+2026-05-07 00:57:00,342 - ERROR - Erro HTTP 403 para 'Gestão Metabólica' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Gest%C3%A3o+Metab%C3%B3lica&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=44550a40ea104fc24e3afe44f502ad95
+2026-05-07 00:57:00,342 - INFO - Buscando notícias | palavra='Metformina' | tentativa=1
+2026-05-07 00:57:01,407 - ERROR - Erro HTTP 403 para 'Metformina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Metformina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=44550a40ea104fc24e3afe44f502ad95
+2026-05-07 00:57:01,408 - INFO - Buscando notícias | palavra='taxa de câmbio' | tentativa=1
+2026-05-07 00:57:02,462 - ERROR - Erro HTTP 403 para 'taxa de câmbio' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=taxa+de+c%C3%A2mbio&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=44550a40ea104fc24e3afe44f502ad95
+2026-05-07 00:57:02,473 - INFO - Buscando notícias | palavra='dólar' | tentativa=1
+2026-05-07 00:57:03,422 - ERROR - Erro HTTP 403 para 'dólar' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=d%C3%B3lar&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=44550a40ea104fc24e3afe44f502ad95
+2026-05-07 00:57:03,423 - INFO - Buscando notícias | palavra='IFA' | tentativa=1
+2026-05-07 00:57:04,573 - ERROR - Erro HTTP 403 para 'IFA' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=IFA&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=44550a40ea104fc24e3afe44f502ad95
+2026-05-07 00:57:04,573 - INFO - Buscando notícias | palavra='reajuste CMED' | tentativa=1
+2026-05-07 00:57:05,822 - ERROR - Erro HTTP 403 para 'reajuste CMED' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=reajuste+CMED&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=44550a40ea104fc24e3afe44f502ad95
+2026-05-07 00:57:05,823 - INFO - Buscando notícias | palavra='CONITECMACE' | tentativa=1
+2026-05-07 00:57:07,057 - ERROR - Erro HTTP 403 para 'CONITECMACE' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=CONITECMACE&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=44550a40ea104fc24e3afe44f502ad95
+2026-05-07 00:57:08,059 - INFO - Iniciando processamento com API_KEY_9
+2026-05-07 00:57:08,059 - INFO - Buscando notícias | palavra='Diabetes Mellitus Tipo 2' | tentativa=1
+2026-05-07 00:57:09,451 - ERROR - Erro HTTP 403 para 'Diabetes Mellitus Tipo 2' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Diabetes+Mellitus+Tipo+2&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=c498144ca2edf9df1e4b7e5cf6c7b5b7
+2026-05-07 00:57:09,453 - INFO - Buscando notícias | palavra='PBM' | tentativa=1
+2026-05-07 00:57:11,028 - ERROR - Erro HTTP 403 para 'PBM' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=PBM&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=c498144ca2edf9df1e4b7e5cf6c7b5b7
+2026-05-07 00:57:11,031 - INFO - Buscando notícias | palavra='empagliflozina' | tentativa=1
+2026-05-07 00:57:12,337 - ERROR - Erro HTTP 403 para 'empagliflozina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=empagliflozina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=c498144ca2edf9df1e4b7e5cf6c7b5b7
+2026-05-07 00:57:12,337 - INFO - Buscando notícias | palavra='linagliptina' | tentativa=1
+2026-05-07 00:57:13,507 - ERROR - Erro HTTP 403 para 'linagliptina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=linagliptina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=c498144ca2edf9df1e4b7e5cf6c7b5b7
+2026-05-07 00:57:13,507 - INFO - Buscando notícias | palavra='Inibidores de SGLT2' | tentativa=1
+2026-05-07 00:57:14,700 - ERROR - Erro HTTP 403 para 'Inibidores de SGLT2' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Inibidores+de+SGLT2&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=c498144ca2edf9df1e4b7e5cf6c7b5b7
+2026-05-07 00:57:14,700 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-05-07 00:57:16,462 - ERROR - Erro HTTP 403 para 'Anvisa' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Anvisa&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=c498144ca2edf9df1e4b7e5cf6c7b5b7
+2026-05-07 00:57:16,465 - INFO - Buscando notícias | palavra='obesidade' | tentativa=1
+2026-05-07 00:57:17,503 - ERROR - Erro HTTP 403 para 'obesidade' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=obesidade&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=c498144ca2edf9df1e4b7e5cf6c7b5b7
+2026-05-07 00:57:17,503 - INFO - Buscando notícias | palavra='GLP-1' | tentativa=1
+2026-05-07 00:57:18,616 - ERROR - Erro HTTP 403 para 'GLP-1' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=GLP-1&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=c498144ca2edf9df1e4b7e5cf6c7b5b7
+2026-05-07 00:57:18,616 - INFO - Buscando notícias | palavra='Insulina' | tentativa=1
+2026-05-07 00:57:19,630 - ERROR - Erro HTTP 403 para 'Insulina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Insulina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=c498144ca2edf9df1e4b7e5cf6c7b5b7
+2026-05-07 00:57:19,630 - INFO - Buscando notícias | palavra='Degludeca' | tentativa=1
+2026-05-07 00:57:20,630 - ERROR - Erro HTTP 403 para 'Degludeca' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Degludeca&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=c498144ca2edf9df1e4b7e5cf6c7b5b7
+2026-05-07 00:57:20,633 - INFO - Buscando notícias | palavra='SemaglutidaHemoglobina Glicada' | tentativa=1
+2026-05-07 00:57:21,661 - ERROR - Erro HTTP 403 para 'SemaglutidaHemoglobina Glicada' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=SemaglutidaHemoglobina+Glicada&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=c498144ca2edf9df1e4b7e5cf6c7b5b7
+2026-05-07 00:57:21,662 - INFO - Buscando notícias | palavra='Gestão Metabólica' | tentativa=1
+2026-05-07 00:57:22,661 - ERROR - Erro HTTP 403 para 'Gestão Metabólica' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Gest%C3%A3o+Metab%C3%B3lica&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=c498144ca2edf9df1e4b7e5cf6c7b5b7
+2026-05-07 00:57:22,661 - INFO - Buscando notícias | palavra='Metformina' | tentativa=1
+2026-05-07 00:57:23,678 - ERROR - Erro HTTP 403 para 'Metformina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Metformina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=c498144ca2edf9df1e4b7e5cf6c7b5b7
+2026-05-07 00:57:23,678 - INFO - Buscando notícias | palavra='taxa de câmbio' | tentativa=1
+2026-05-07 00:57:24,828 - ERROR - Erro HTTP 403 para 'taxa de câmbio' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=taxa+de+c%C3%A2mbio&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=c498144ca2edf9df1e4b7e5cf6c7b5b7
+2026-05-07 00:57:24,831 - INFO - Buscando notícias | palavra='dólar' | tentativa=1
+2026-05-07 00:57:26,122 - ERROR - Erro HTTP 403 para 'dólar' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=d%C3%B3lar&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=c498144ca2edf9df1e4b7e5cf6c7b5b7
+2026-05-07 00:57:26,125 - INFO - Buscando notícias | palavra='IFA' | tentativa=1
+2026-05-07 00:57:27,458 - ERROR - Erro HTTP 403 para 'IFA' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=IFA&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=c498144ca2edf9df1e4b7e5cf6c7b5b7
+2026-05-07 00:57:27,458 - INFO - Buscando notícias | palavra='reajuste CMED' | tentativa=1
+2026-05-07 00:57:28,599 - ERROR - Erro HTTP 403 para 'reajuste CMED' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=reajuste+CMED&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=c498144ca2edf9df1e4b7e5cf6c7b5b7
+2026-05-07 00:57:28,601 - INFO - Buscando notícias | palavra='CONITECMACE' | tentativa=1
+2026-05-07 00:57:29,789 - ERROR - Erro HTTP 403 para 'CONITECMACE' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=CONITECMACE&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=c498144ca2edf9df1e4b7e5cf6c7b5b7
+2026-05-07 00:57:30,804 - INFO - Iniciando processamento com API_KEY_10
+2026-05-07 00:57:30,805 - INFO - Buscando notícias | palavra='Diabetes Mellitus Tipo 2' | tentativa=1
+2026-05-07 00:57:32,014 - ERROR - Erro HTTP 403 para 'Diabetes Mellitus Tipo 2' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Diabetes+Mellitus+Tipo+2&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=740d7309ea60e55120b59efa05723730
+2026-05-07 00:57:32,017 - INFO - Buscando notícias | palavra='PBM' | tentativa=1
+2026-05-07 00:57:33,195 - ERROR - Erro HTTP 403 para 'PBM' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=PBM&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=740d7309ea60e55120b59efa05723730
+2026-05-07 00:57:33,195 - INFO - Buscando notícias | palavra='empagliflozina' | tentativa=1
+2026-05-07 00:57:34,373 - ERROR - Erro HTTP 403 para 'empagliflozina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=empagliflozina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=740d7309ea60e55120b59efa05723730
+2026-05-07 00:57:34,377 - INFO - Buscando notícias | palavra='linagliptina' | tentativa=1
+2026-05-07 00:57:36,341 - ERROR - Erro HTTP 403 para 'linagliptina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=linagliptina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=740d7309ea60e55120b59efa05723730
+2026-05-07 00:57:36,343 - INFO - Buscando notícias | palavra='Inibidores de SGLT2' | tentativa=1
+2026-05-07 00:57:38,036 - ERROR - Erro HTTP 403 para 'Inibidores de SGLT2' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Inibidores+de+SGLT2&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=740d7309ea60e55120b59efa05723730
+2026-05-07 00:57:38,036 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-05-07 00:57:38,904 - ERROR - Erro HTTP 403 para 'Anvisa' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Anvisa&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=740d7309ea60e55120b59efa05723730
+2026-05-07 00:57:38,904 - INFO - Buscando notícias | palavra='obesidade' | tentativa=1
+2026-05-07 00:57:40,084 - ERROR - Erro HTTP 403 para 'obesidade' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=obesidade&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=740d7309ea60e55120b59efa05723730
+2026-05-07 00:57:40,084 - INFO - Buscando notícias | palavra='GLP-1' | tentativa=1
+2026-05-07 00:57:41,050 - ERROR - Erro HTTP 403 para 'GLP-1' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=GLP-1&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=740d7309ea60e55120b59efa05723730
+2026-05-07 00:57:41,050 - INFO - Buscando notícias | palavra='Insulina' | tentativa=1
+2026-05-07 00:57:42,048 - ERROR - Erro HTTP 403 para 'Insulina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Insulina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=740d7309ea60e55120b59efa05723730
+2026-05-07 00:57:42,050 - INFO - Buscando notícias | palavra='Degludeca' | tentativa=1
+2026-05-07 00:57:42,962 - ERROR - Erro HTTP 403 para 'Degludeca' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Degludeca&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=740d7309ea60e55120b59efa05723730
+2026-05-07 00:57:42,964 - INFO - Buscando notícias | palavra='SemaglutidaHemoglobina Glicada' | tentativa=1
+2026-05-07 00:57:43,880 - ERROR - Erro HTTP 403 para 'SemaglutidaHemoglobina Glicada' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=SemaglutidaHemoglobina+Glicada&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=740d7309ea60e55120b59efa05723730
+2026-05-07 00:57:43,882 - INFO - Buscando notícias | palavra='Gestão Metabólica' | tentativa=1
+2026-05-07 00:57:44,818 - ERROR - Erro HTTP 403 para 'Gestão Metabólica' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Gest%C3%A3o+Metab%C3%B3lica&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=740d7309ea60e55120b59efa05723730
+2026-05-07 00:57:44,819 - INFO - Buscando notícias | palavra='Metformina' | tentativa=1
+2026-05-07 00:57:45,915 - ERROR - Erro HTTP 403 para 'Metformina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Metformina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=740d7309ea60e55120b59efa05723730
+2026-05-07 00:57:45,917 - INFO - Buscando notícias | palavra='taxa de câmbio' | tentativa=1
+2026-05-07 00:57:47,068 - ERROR - Erro HTTP 403 para 'taxa de câmbio' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=taxa+de+c%C3%A2mbio&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=740d7309ea60e55120b59efa05723730
+2026-05-07 00:57:47,070 - INFO - Buscando notícias | palavra='dólar' | tentativa=1
+2026-05-07 00:57:48,154 - ERROR - Erro HTTP 403 para 'dólar' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=d%C3%B3lar&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=740d7309ea60e55120b59efa05723730
+2026-05-07 00:57:48,160 - INFO - Buscando notícias | palavra='IFA' | tentativa=1
+2026-05-07 00:57:49,164 - ERROR - Erro HTTP 403 para 'IFA' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=IFA&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=740d7309ea60e55120b59efa05723730
+2026-05-07 00:57:49,164 - INFO - Buscando notícias | palavra='reajuste CMED' | tentativa=1
+2026-05-07 00:57:50,087 - ERROR - Erro HTTP 403 para 'reajuste CMED' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=reajuste+CMED&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=740d7309ea60e55120b59efa05723730
+2026-05-07 00:57:50,089 - INFO - Buscando notícias | palavra='CONITECMACE' | tentativa=1
+2026-05-07 00:57:51,081 - ERROR - Erro HTTP 403 para 'CONITECMACE' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=CONITECMACE&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=740d7309ea60e55120b59efa05723730
+2026-05-07 00:57:52,084 - INFO - Iniciando processamento com API_KEY_11
+2026-05-07 00:57:52,085 - INFO - Buscando notícias | palavra='Diabetes Mellitus Tipo 2' | tentativa=1
+2026-05-07 00:57:53,165 - ERROR - Erro HTTP 403 para 'Diabetes Mellitus Tipo 2' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Diabetes+Mellitus+Tipo+2&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4fce7df06a1703e4e1c05c9463aa4bf1
+2026-05-07 00:57:53,167 - INFO - Buscando notícias | palavra='PBM' | tentativa=1
+2026-05-07 00:57:54,195 - ERROR - Erro HTTP 403 para 'PBM' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=PBM&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4fce7df06a1703e4e1c05c9463aa4bf1
+2026-05-07 00:57:54,197 - INFO - Buscando notícias | palavra='empagliflozina' | tentativa=1
+2026-05-07 00:57:55,523 - ERROR - Erro HTTP 403 para 'empagliflozina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=empagliflozina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4fce7df06a1703e4e1c05c9463aa4bf1
+2026-05-07 00:57:55,523 - INFO - Buscando notícias | palavra='linagliptina' | tentativa=1
+2026-05-07 00:57:56,386 - ERROR - Erro HTTP 403 para 'linagliptina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=linagliptina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4fce7df06a1703e4e1c05c9463aa4bf1
+2026-05-07 00:57:56,386 - INFO - Buscando notícias | palavra='Inibidores de SGLT2' | tentativa=1
+2026-05-07 00:57:57,303 - ERROR - Erro HTTP 403 para 'Inibidores de SGLT2' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Inibidores+de+SGLT2&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4fce7df06a1703e4e1c05c9463aa4bf1
+2026-05-07 00:57:57,320 - INFO - Buscando notícias | palavra='Anvisa' | tentativa=1
+2026-05-07 00:57:58,187 - ERROR - Erro HTTP 403 para 'Anvisa' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Anvisa&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4fce7df06a1703e4e1c05c9463aa4bf1
+2026-05-07 00:57:58,203 - INFO - Buscando notícias | palavra='obesidade' | tentativa=1
+2026-05-07 00:57:59,068 - ERROR - Erro HTTP 403 para 'obesidade' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=obesidade&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4fce7df06a1703e4e1c05c9463aa4bf1
+2026-05-07 00:57:59,068 - INFO - Buscando notícias | palavra='GLP-1' | tentativa=1
+2026-05-07 00:57:59,925 - ERROR - Erro HTTP 403 para 'GLP-1' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=GLP-1&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4fce7df06a1703e4e1c05c9463aa4bf1
+2026-05-07 00:57:59,928 - INFO - Buscando notícias | palavra='Insulina' | tentativa=1
+2026-05-07 00:58:01,066 - ERROR - Erro HTTP 403 para 'Insulina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Insulina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4fce7df06a1703e4e1c05c9463aa4bf1
+2026-05-07 00:58:01,083 - INFO - Buscando notícias | palavra='Degludeca' | tentativa=1
+2026-05-07 00:58:02,048 - ERROR - Erro HTTP 403 para 'Degludeca' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Degludeca&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4fce7df06a1703e4e1c05c9463aa4bf1
+2026-05-07 00:58:02,049 - INFO - Buscando notícias | palavra='SemaglutidaHemoglobina Glicada' | tentativa=1
+2026-05-07 00:58:02,847 - ERROR - Erro HTTP 403 para 'SemaglutidaHemoglobina Glicada' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=SemaglutidaHemoglobina+Glicada&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4fce7df06a1703e4e1c05c9463aa4bf1
+2026-05-07 00:58:02,848 - INFO - Buscando notícias | palavra='Gestão Metabólica' | tentativa=1
+2026-05-07 00:58:03,582 - ERROR - Erro HTTP 403 para 'Gestão Metabólica' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Gest%C3%A3o+Metab%C3%B3lica&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4fce7df06a1703e4e1c05c9463aa4bf1
+2026-05-07 00:58:03,582 - INFO - Buscando notícias | palavra='Metformina' | tentativa=1
+2026-05-07 00:58:04,379 - ERROR - Erro HTTP 403 para 'Metformina' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=Metformina&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4fce7df06a1703e4e1c05c9463aa4bf1
+2026-05-07 00:58:04,379 - INFO - Buscando notícias | palavra='taxa de câmbio' | tentativa=1
+2026-05-07 00:58:05,115 - ERROR - Erro HTTP 403 para 'taxa de câmbio' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=taxa+de+c%C3%A2mbio&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4fce7df06a1703e4e1c05c9463aa4bf1
+2026-05-07 00:58:05,131 - INFO - Buscando notícias | palavra='dólar' | tentativa=1
+2026-05-07 00:58:05,862 - ERROR - Erro HTTP 403 para 'dólar' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=d%C3%B3lar&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4fce7df06a1703e4e1c05c9463aa4bf1
+2026-05-07 00:58:05,870 - INFO - Buscando notícias | palavra='IFA' | tentativa=1
+2026-05-07 00:58:06,636 - ERROR - Erro HTTP 403 para 'IFA' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=IFA&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4fce7df06a1703e4e1c05c9463aa4bf1
+2026-05-07 00:58:06,636 - INFO - Buscando notícias | palavra='reajuste CMED' | tentativa=1
+2026-05-07 00:58:07,383 - ERROR - Erro HTTP 403 para 'reajuste CMED' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=reajuste+CMED&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4fce7df06a1703e4e1c05c9463aa4bf1
+2026-05-07 00:58:07,383 - INFO - Buscando notícias | palavra='CONITECMACE' | tentativa=1
+2026-05-07 00:58:08,159 - ERROR - Erro HTTP 403 para 'CONITECMACE' | tentativa=1 | erro=403 Client Error: Forbidden for url: https://gnews.io/api/v4/search?q=CONITECMACE&lang=pt&country=br&max=100&page=1&from=2023-01-01&to=2026-05-02&apikey=4fce7df06a1703e4e1c05c9463aa4bf1
+2026-05-07 00:58:09,169 - INFO - CSV salvo com sucesso em: c:\Users\u1174978\OneDrive - IQVIA\Documents\Geral\Importantes\MACKENZIE\5 - SEMESTRE\TCC\sistema-inteligencia-prescritiva-para-industria-farmaceutica\data\extracao_noticias_gnews.csv
