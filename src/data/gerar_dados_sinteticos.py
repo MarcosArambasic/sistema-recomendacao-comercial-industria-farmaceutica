@@ -73,11 +73,19 @@ CONFIG = {
 
     # --- Aba 2: Distribuicoes Numericas -------------------------------------
     # media / dp_pct (desvio como % da media) / min / max quando fizer sentido limitar
+    #
+    # IMPORTANTE sobre o grao de cada parametro:
+    #   - demanda_mercado_mensal e por MERCADO x TERRITORIO x MES (compartilhada entre todos
+    #     os produtos daquele mercado — nao existe "demanda de mercado do produto X").
+    #   - market_share_produto, preco_medio, investimento_promocional e estoque_disponivel
+    #     SAO por produto (cada produto tem o seu). E a combinacao
+    #     demanda_mercado (compartilhada) x market_share_produto (por produto) que gera a
+    #     demanda do produto — por isso nao ha um parametro solto de "demanda do produto" ou
+    #     "objetivo mensal" aqui: ambos sao derivados (ver regras_negocio.fator_ambicao_meta).
     "distribuicoes": {
         "demanda_mercado_mensal": {"media": 5000, "dp_pct": 0.24, "min": 500, "max": 30000},
         "market_share_produto": {"media": 0.18, "dp": 0.05, "min": 0.01, "max": 0.60},
         "preco_medio": {"media": 45.0, "dp_pct": 0.08},
-        "objetivo_mensal_unid": {"media": 1000, "dp_pct": 0.15},
         "investimento_promocional": {"media": 8000, "dp_pct": 0.25},
         "estoque_disponivel": {"media": 400, "dp_pct": 0.30},
     },
@@ -248,26 +256,23 @@ def gerar_dimensoes(cfg: dict, rng: np.random.Generator, faker) -> dict[str, pd.
 # ============================================================================
 # 2. Fato mensal (grao territorio x produto x mes) + distribuicao por outlet
 # ============================================================================
-def gerar_fato_territorio(cfg: dict, dims: dict, periodos: list, rng: np.random.Generator) -> pd.DataFrame:
-    dist = cfg["distribuicoes"]
+def gerar_demanda_mercado_territorio(cfg: dict, dims: dict, periodos: list,
+                                      rng: np.random.Generator) -> pd.DataFrame:
+    """Tamanho total do mercado (classe terapeutica) por territorio e mes.
+
+    Grao: (id_mercado, id_setor, periodo) — DE PROPOSITO sem id_produto. O mercado e uma
+    variavel de ambiente compartilhada por todos os produtos que competem nele; o que varia
+    por produto e so a fatia dele (market_share_produto, aplicado depois em
+    gerar_fato_territorio). Gerar isso por produto faria dois produtos do mesmo mercado, no
+    mesmo territorio/mes, enxergarem tamanhos de mercado diferentes entre si, o que nao faz
+    sentido de negocio.
+    """
+    dist = cfg["distribuicoes"]["demanda_mercado_mensal"]
     saz = cfg["sazonalidade"]
     crescimento_anual = cfg["tendencia_crescimento_anual_pct"]
-    corr = cfg["correlacoes"]["market_share_vs_investimento_promocional"]
 
-    # produto ja carregando seu id_mercado (via produto_mercado) para poder ser usado
-    # nas chaves de fato_objetivo_mensal/fato_mercado_mensal, que sao por mercado tambem
-    dim_produto = dims["dim_produto"].merge(dims["produto_mercado"], on="id_produto", how="left")
-    dim_setor = dims["dim_setor"]
-
-    # combinacao completa produto x territorio (todo produto vendido em todo territorio)
-    base = dim_produto.merge(dim_setor, how="cross")
-
-    # share "base" por produto (fixo ao longo do ano, com leve ruido por territorio)
-    share_media = dist["market_share_produto"]["media"]
-    share_dp = dist["market_share_produto"]["dp"]
-    share_min, share_max = dist["market_share_produto"]["min"], dist["market_share_produto"]["max"]
-    base["share_base"] = np.clip(
-        rng.normal(share_media, share_dp, size=len(base)), share_min, share_max
+    base = dims["dim_mercado"][["id_mercado"]].merge(
+        dims["dim_setor"][["id_setor", "potencial"]], how="cross"
     )
 
     linhas = []
@@ -280,20 +285,56 @@ def gerar_fato_territorio(cfg: dict, dims: dict, periodos: list, rng: np.random.
         df_mes["periodo"] = periodo
         df_mes["mes"] = mes_cal
 
-        # demanda de mercado (territorio-produto-mes): media global * potencial territorio * sazonalidade * tendencia
-        media_mkt = dist["demanda_mercado_mensal"]["media"]
-        dp_pct_mkt = dist["demanda_mercado_mensal"]["dp_pct"]
-        ruido_mkt = rng.normal(1.0, dp_pct_mkt, size=len(df_mes))
-        demanda_mercado_esperada = (
-            media_mkt * df_mes["potencial"] * fator_sazonal * fator_tendencia
-        )
-        df_mes["demanda_mercado_und"] = np.clip(
-            demanda_mercado_esperada * ruido_mkt,
-            dist["demanda_mercado_mensal"]["min"],
-            dist["demanda_mercado_mensal"]["max"],
-        )
+        esperado = dist["media"] * df_mes["potencial"] * fator_sazonal * fator_tendencia
+        ruido = rng.normal(1.0, dist["dp_pct"], size=len(df_mes))
 
-        # investimento promocional e estoque (drivers de correlacao)
+        df_mes["demanda_mercado_esperada"] = esperado
+        df_mes["demanda_mercado_und"] = np.clip(esperado * ruido, dist["min"], dist["max"])
+        linhas.append(df_mes)
+
+    return pd.concat(linhas, ignore_index=True).drop(columns=["potencial"])
+
+
+def gerar_fato_territorio(cfg: dict, dims: dict, periodos: list, rng: np.random.Generator) -> pd.DataFrame:
+    dist = cfg["distribuicoes"]
+    corr = cfg["correlacoes"]["market_share_vs_investimento_promocional"]
+
+    # produto ja carregando seu id_mercado (via produto_mercado) para poder ser usado
+    # nas chaves de fato_objetivo_mensal/fato_mercado_mensal, que sao por mercado tambem
+    dim_produto = dims["dim_produto"].merge(dims["produto_mercado"], on="id_produto", how="left")
+    dim_setor = dims["dim_setor"]
+
+    # combinacao completa produto x territorio (todo produto vendido em todo territorio)
+    base = dim_produto.merge(dim_setor, how="cross")
+
+    # share "base" por produto (fixo ao longo do ano — a variacao produto a produto entra aqui,
+    # nao no tamanho do mercado)
+    share_media = dist["market_share_produto"]["media"]
+    share_dp = dist["market_share_produto"]["dp"]
+    share_min, share_max = dist["market_share_produto"]["min"], dist["market_share_produto"]["max"]
+    base["share_base"] = np.clip(
+        rng.normal(share_media, share_dp, size=len(base)), share_min, share_max
+    )
+
+    # demanda de mercado gerada UMA VEZ por (mercado, territorio, mes) e depois "emprestada"
+    # para cada produto daquele mercado — ver gerar_demanda_mercado_territorio()
+    demanda_mercado = gerar_demanda_mercado_territorio(cfg, dims, periodos, rng)
+
+    linhas = []
+    for periodo in periodos:
+        mes_cal = periodo.month
+
+        df_mes = base.copy()
+        df_mes["periodo"] = periodo
+        df_mes["mes"] = mes_cal
+
+        dm_mes = demanda_mercado[demanda_mercado["periodo"] == periodo][
+            ["id_mercado", "id_setor", "demanda_mercado_esperada", "demanda_mercado_und"]
+        ]
+        # mesmo id_mercado + id_setor -> mesmo tamanho de mercado, qualquer que seja o produto
+        df_mes = df_mes.merge(dm_mes, on=["id_mercado", "id_setor"], how="left")
+
+        # investimento promocional e estoque (drivers de correlacao) — esses SIM variam por produto
         media_inv = dist["investimento_promocional"]["media"]
         dp_pct_inv = dist["investimento_promocional"]["dp_pct"]
         df_mes["investimento_promocional"] = np.clip(
@@ -311,18 +352,19 @@ def gerar_fato_territorio(cfg: dict, dims: dict, periodos: list, rng: np.random.
         share_ajustado = df_mes["share_base"] * (1 + corr * (inv_normalizado - 0.5))
         share_ajustado = np.clip(share_ajustado, 0.005, 0.95)
 
-        # demanda "esperada" do produto (sem ruido de execucao) -> usada para meta
-        demanda_produto_esperada = demanda_mercado_esperada * share_ajustado
+        # demanda "esperada" do produto (mercado esperado x fatia) -> usada para meta
+        demanda_produto_esperada = df_mes["demanda_mercado_esperada"] * share_ajustado
         df_mes["_demanda_produto_esperada"] = demanda_produto_esperada
 
-        # demanda "realizada" do produto (com ruido de execucao mensal)
+        # demanda "realizada" do produto: mercado REALIZADO (compartilhado) x fatia x
+        # ruido de execucao proprio do produto/territorio/mes
         ruido_exec = rng.normal(1.0, 0.12, size=len(df_mes))
         demanda_produto_real = np.minimum(
-            demanda_produto_esperada * ruido_exec, df_mes["demanda_mercado_und"]
+            df_mes["demanda_mercado_und"] * share_ajustado * ruido_exec, df_mes["demanda_mercado_und"]
         )
         df_mes["demanda_produto_und"] = np.clip(demanda_produto_real, 0, None)
 
-        # preco medio
+        # preco medio (esse sim e por produto — cada produto tem seu proprio preco)
         media_preco = dist["preco_medio"]["media"]
         dp_pct_preco = dist["preco_medio"]["dp_pct"]
         df_mes["preco_medio"] = np.clip(
