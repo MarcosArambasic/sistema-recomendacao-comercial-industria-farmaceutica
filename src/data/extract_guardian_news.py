@@ -40,8 +40,10 @@ TEXTOS = [
 API_KEYS = [os.getenv(f"API_KEY_GUARDIAN")]
 API_KEYS = [key for key in API_KEYS if key]  # remove None/vazias
 
-# CAMINHO DOS ARQUIVOS
-CAMINHO_DIRETORIO = os.path.abspath(os.path.join(os.path.dirname("sistema-inteligencia-prescritiva-para-industria-farmaceutica"), "..","..", "data"))
+# Caminhos independentes do diretório a partir do qual o script é executado.
+CAMINHO_DIRETORIO = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "..", "data")
+)
 
 CSV_SAIDA = os.path.join(CAMINHO_DIRETORIO, "extracao_noticias_guardian.csv")
 LOG_ARQUIVO = os.path.join(CAMINHO_DIRETORIO, "pipeline_extracao_guardian.log")
@@ -72,7 +74,7 @@ def limpar_texto(texto):
     texto = " ".join(texto.split())
     return texto.strip()
 
-def buscar_noticias(api_key, palavra_chave, busca_campos='headline,body',mostra_campos="bodyText", data_inicio='2023-01-01', data_fim='2026-12-31',qntd_por_pagina=30, tentativas=3):
+def buscar_noticias(api_key, palavra_chave, busca_campos='headline,body',mostra_campos="bodyText", data_inicio='2023-01-01', data_fim='2026-08-16',qntd_por_pagina=30, tentativas=3):
     """
     Busca noticias na API Guardian com tratamento de erros e tentativas.
     Ajustado para extrair de `response.results` (formato da Guardian API).
