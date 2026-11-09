@@ -1,0 +1,125 @@
+{
+  "arquivo_saida": "data/estatistica_kappa/noticias_classificadas_ampliado.xlsx",
+  "corpus_humano_original": 1415,
+  "corpus_humano_duplicatas_removidas": 315,
+  "corpus_humano_unico": 1100,
+  "linhas_coletadas": 1018,
+  "quase_duplicatas_removidas": 0,
+  "referencia_na_coleta": {
+    "B": 563,
+    "M": 338,
+    "A": 117
+  },
+  "referencia_alinhada": {
+    "B": 497,
+    "A": 322,
+    "M": 199
+  },
+  "noticias_novas_unicas": 1018,
+  "noticias_novas_incluidas": 331,
+  "novas_por_fonte": {
+    "STAT": 187,
+    "outros RSS/Bing": 111,
+    "The Guardian": 33
+  },
+  "novas_por_referencia": {
+    "ALTO": 265,
+    "BAIXO": 45,
+    "MÉDIO": 21
+  },
+  "novas_consolidado": {
+    "ALTO": 251,
+    "BAIXO": 38,
+    "MÉDIO": 21,
+    "DISCORDANCIA_TOTAL": 21
+  },
+  "total_linhas": 1431,
+  "consolidado_final": {
+    "BAIXO": 425,
+    "ALTO": 425,
+    "MÉDIO": 425,
+    "DISCORDANCIA_TOTAL": 156
+  },
+  "consolidado_humano": {
+    "MÉDIO": 404,
+    "BAIXO": 387,
+    "ALTO": 174,
+    "DISCORDANCIA_TOTAL": 135
+  },
+  "fleiss_kappa_humano_unico": 0.1694,
+  "fleiss_kappa_simulado": 0.2066,
+  "fleiss_kappa_corpus_ampliado": 0.2392,
+  "concordancia_simulada_com_referencia": 0.9094,
+  "matrizes_perfil_avaliador": {
+    "classificacao mendes": {
+      "ALTO": {
+        "ALTO": 0.391,
+        "MÉDIO": 0.603,
+        "BAIXO": 0.006
+      },
+      "MÉDIO": {
+        "ALTO": 0.087,
+        "MÉDIO": 0.767,
+        "BAIXO": 0.146
+      },
+      "BAIXO": {
+        "ALTO": 0.049,
+        "MÉDIO": 0.127,
+        "BAIXO": 0.824
+      }
+    },
+    "classificacao guilherme": {
+      "ALTO": {
+        "ALTO": 1.0,
+        "MÉDIO": 0.0,
+        "BAIXO": 0.0
+      },
+      "MÉDIO": {
+        "ALTO": 0.089,
+        "MÉDIO": 0.765,
+        "BAIXO": 0.146
+      },
+      "BAIXO": {
+        "ALTO": 0.085,
+        "MÉDIO": 0.351,
+        "BAIXO": 0.563
+      }
+    },
+    "classificacao marcos": {
+      "ALTO": {
+        "ALTO": 0.787,
+        "MÉDIO": 0.126,
+        "BAIXO": 0.086
+      },
+      "MÉDIO": {
+        "ALTO": 0.04,
+        "MÉDIO": 0.814,
+        "BAIXO": 0.146
+      },
+      "BAIXO": {
+        "ALTO": 0.0,
+        "MÉDIO": 0.07,
+        "BAIXO": 0.93
+      }
+    }
+  },
+  "distribuicao_por_avaliador": {
+    "classificacao mendes": {
+      "MÉDIO": 709,
+      "BAIXO": 431,
+      "ALTO": 291
+    },
+    "classificacao guilherme": {
+      "ALTO": 595,
+      "MÉDIO": 515,
+      "BAIXO": 321
+    },
+    "classificacao marcos": {
+      "BAIXO": 611,
+      "MÉDIO": 426,
+      "ALTO": 394
+    }
+  },
+  "semente": 42,
+  "alvo_por_classe": 425
+}

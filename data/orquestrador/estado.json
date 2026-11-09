@@ -1,0 +1,332 @@
+{
+  "corpus": {
+    "executado_em": "2026-10-20T07:18:17",
+    "motores": {
+      "desempate": "revisao_manual",
+      "agente1": "naive_bayes",
+      "agente2": "encoder_lexical"
+    },
+    "contagens": {
+      "anotacao": {
+        "MAIORIA": 711,
+        "UNANIME": 564,
+        "DISCORDANCIA_TOTAL": 135
+      },
+      "desempate": {
+        "discordancia_total": 135,
+        "resolvidos": 0,
+        "pendentes_revisao_manual": 135
+      },
+      "agente1_duplicatas_removidas": 0,
+      "agente2_corpus_oof": {
+        "total_entrada": 1275,
+        "aprovados": 737,
+        "descartados_baixo": 128,
+        "duplicados": 0,
+        "quarentena": 5,
+        "sem_ancora": 405,
+        "escopo_especifico": 480,
+        "escopo_sistemico": 257,
+        "promovidos_por_regra": 32,
+        "divergencias_knn": 0,
+        "limiar_utilizado": 0.2,
+        "configuracao": {
+          "k_vizinhos": 5,
+          "limiar_similaridade": 0.2,
+          "limiar_duplicata": 0.92,
+          "alpha_fusao": 0.7,
+          "score_minimo": 0.45,
+          "divergencia_minima": 0.15,
+          "remover_baixo_impacto": true,
+          "promover_eventos_criticos": true,
+          "exigir_ancora_de_mercado": true,
+          "deduplicar": true
+        }
+      }
+    }
+  },
+  "historico_log": [
+    {
+      "timestamp": "2026-10-07T02:17:07",
+      "etapa": "Preparo",
+      "detalhe": "1415 documentos normalizados | {'MAIORIA': 863, 'UNANIME': 388, 'DISCORDANCIA_TOTAL': 164}"
+    },
+    {
+      "timestamp": "2026-10-07T02:17:07",
+      "etapa": "Agente de Desempate",
+      "detalhe": "164 casos de discordancia total | 0 resolvidos (revisao_manual)"
+    },
+    {
+      "timestamp": "2026-10-07T02:17:49",
+      "etapa": "Agente 1",
+      "detalhe": "motor=naive_bayes | F1-macro 0.6903 +/- 0.0128 (5 folds)"
+    },
+    {
+      "timestamp": "2026-10-07T02:18:51",
+      "etapa": "Agente 2",
+      "detalhe": "motor=encoder_lexical | 971 entrada | 475 aprovadas | 115 baixo | 0 duplicatas | 3 quarentena | 378 sem ancora | 36 promovidas"
+    },
+    {
+      "timestamp": "2026-10-07T02:19:20",
+      "etapa": "ETL",
+      "detalhe": "extracao e transformacao das fontes"
+    },
+    {
+      "timestamp": "2026-10-07T02:19:21",
+      "etapa": "ETL",
+      "detalhe": "564 noticias consolidadas | 564 novas"
+    },
+    {
+      "timestamp": "2026-10-07T02:19:21",
+      "etapa": "Preparo",
+      "detalhe": "1415 documentos normalizados | {'MAIORIA': 863, 'UNANIME': 388, 'DISCORDANCIA_TOTAL': 164}"
+    },
+    {
+      "timestamp": "2026-10-07T02:19:21",
+      "etapa": "Agente de Desempate",
+      "detalhe": "164 casos de discordancia total | 0 resolvidos (revisao_manual)"
+    },
+    {
+      "timestamp": "2026-10-07T02:20:10",
+      "etapa": "Agente 1",
+      "detalhe": "motor=naive_bayes | 564 classificadas (115 com rotulo humano)"
+    },
+    {
+      "timestamp": "2026-10-07T02:20:42",
+      "etapa": "Agente 2",
+      "detalhe": "motor=encoder_lexical | 564 entrada | 276 aprovadas | 99 baixo | 1 duplicatas | 2 quarentena | 186 sem ancora | 24 promovidas"
+    },
+    {
+      "timestamp": "2026-10-07T02:22:26",
+      "etapa": "Preparo",
+      "detalhe": "1415 documentos normalizados | {'MAIORIA': 863, 'UNANIME': 388, 'DISCORDANCIA_TOTAL': 164}"
+    },
+    {
+      "timestamp": "2026-10-07T02:22:26",
+      "etapa": "Agente de Desempate",
+      "detalhe": "164 casos de discordancia total | 0 resolvidos (revisao_manual)"
+    },
+    {
+      "timestamp": "2026-10-07T02:23:12",
+      "etapa": "Agente 1",
+      "detalhe": "motor=naive_bayes | F1-macro 0.6856 +/- 0.0161 (5 folds)"
+    },
+    {
+      "timestamp": "2026-10-07T02:24:14",
+      "etapa": "Agente 2",
+      "detalhe": "motor=encoder_lexical | 969 entrada | 469 aprovadas | 119 baixo | 0 duplicatas | 4 quarentena | 377 sem ancora | 36 promovidas"
+    },
+    {
+      "timestamp": "2026-10-07T13:00:48",
+      "etapa": "Pipeline semanal",
+      "detalhe": "scripts/executar_semana.py --ano 2026 --mes 10 --semana 3"
+    },
+    {
+      "timestamp": "2026-10-07T13:02:02",
+      "etapa": "Agentes 4 e 5",
+      "detalhe": "4020 achados | 276 noticias validas"
+    },
+    {
+      "timestamp": "2026-10-07T13:04:24",
+      "etapa": "ETL",
+      "detalhe": "extracao e transformacao das fontes"
+    },
+    {
+      "timestamp": "2026-10-07T13:08:55",
+      "etapa": "ETL",
+      "detalhe": "597 noticias consolidadas | 33 novas"
+    },
+    {
+      "timestamp": "2026-10-07T13:08:56",
+      "etapa": "Preparo",
+      "detalhe": "1415 documentos normalizados | {'MAIORIA': 863, 'UNANIME': 388, 'DISCORDANCIA_TOTAL': 164}"
+    },
+    {
+      "timestamp": "2026-10-07T13:08:56",
+      "etapa": "Agente de Desempate",
+      "detalhe": "164 casos de discordancia total | 0 resolvidos (revisao_manual)"
+    },
+    {
+      "timestamp": "2026-10-07T13:09:55",
+      "etapa": "Agente 1",
+      "detalhe": "motor=naive_bayes | 33 classificadas (0 com rotulo humano)"
+    },
+    {
+      "timestamp": "2026-10-07T13:09:59",
+      "etapa": "Agente 2",
+      "detalhe": "motor=encoder_lexical | 33 entrada | 26 aprovadas | 0 baixo | 1 duplicatas | 0 quarentena | 6 sem ancora | 0 promovidas"
+    },
+    {
+      "timestamp": "2026-10-17T10:23:45",
+      "etapa": "Pipeline semanal",
+      "detalhe": "scripts/executar_semana.py --ano 2026 --mes 10 --semana 4"
+    },
+    {
+      "timestamp": "2026-10-17T10:24:31",
+      "etapa": "Agentes 4 e 5",
+      "detalhe": "4020 achados | 302 noticias validas"
+    },
+    {
+      "timestamp": "2026-10-18T17:30:19",
+      "etapa": "Preparo",
+      "detalhe": "1431 documentos normalizados | {'MAIORIA': 848, 'UNANIME': 427, 'DISCORDANCIA_TOTAL': 156}"
+    },
+    {
+      "timestamp": "2026-10-18T17:30:20",
+      "etapa": "Agente de Desempate",
+      "detalhe": "156 casos de discordancia total | 0 resolvidos (revisao_manual)"
+    },
+    {
+      "timestamp": "2026-10-18T17:30:58",
+      "etapa": "Agente 1",
+      "detalhe": "motor=naive_bayes | F1-macro 0.7102 +/- 0.0194 (5 folds)"
+    },
+    {
+      "timestamp": "2026-10-18T17:31:58",
+      "etapa": "Agente 2",
+      "detalhe": "motor=encoder_lexical | 1275 entrada | 744 aprovadas | 120 baixo | 0 duplicatas | 4 quarentena | 407 sem ancora | 31 promovidas"
+    },
+    {
+      "timestamp": "2026-10-18T17:36:17",
+      "etapa": "ETL",
+      "detalhe": "extracao e transformacao das fontes"
+    },
+    {
+      "timestamp": "2026-10-18T17:36:18",
+      "etapa": "ETL",
+      "detalhe": "597 noticias consolidadas | 597 novas"
+    },
+    {
+      "timestamp": "2026-10-18T17:36:19",
+      "etapa": "Preparo",
+      "detalhe": "1431 documentos normalizados | {'MAIORIA': 848, 'UNANIME': 427, 'DISCORDANCIA_TOTAL': 156}"
+    },
+    {
+      "timestamp": "2026-10-18T17:36:19",
+      "etapa": "Agente de Desempate",
+      "detalhe": "156 casos de discordancia total | 0 resolvidos (revisao_manual)"
+    },
+    {
+      "timestamp": "2026-10-18T17:37:08",
+      "etapa": "Agente 1",
+      "detalhe": "motor=naive_bayes | 597 classificadas (143 com rotulo humano)"
+    },
+    {
+      "timestamp": "2026-10-18T17:37:38",
+      "etapa": "Agente 2",
+      "detalhe": "motor=encoder_lexical | 597 entrada | 299 aprovadas | 102 baixo | 2 duplicatas | 2 quarentena | 192 sem ancora | 23 promovidas"
+    },
+    {
+      "timestamp": "2026-10-20T07:16:38",
+      "etapa": "Preparo",
+      "detalhe": "1410 documentos normalizados | {'MAIORIA': 711, 'UNANIME': 564, 'DISCORDANCIA_TOTAL': 135}"
+    },
+    {
+      "timestamp": "2026-10-20T07:16:38",
+      "etapa": "Agente de Desempate",
+      "detalhe": "135 casos de discordancia total | 0 resolvidos (revisao_manual)"
+    },
+    {
+      "timestamp": "2026-10-20T07:17:17",
+      "etapa": "Agente 1",
+      "detalhe": "motor=naive_bayes | F1-macro 0.7275 +/- 0.0220 (5 folds)"
+    },
+    {
+      "timestamp": "2026-10-20T07:18:17",
+      "etapa": "Agente 2",
+      "detalhe": "motor=encoder_lexical | 1275 entrada | 737 aprovadas | 128 baixo | 0 duplicatas | 5 quarentena | 405 sem ancora | 32 promovidas"
+    },
+    {
+      "timestamp": "2026-10-20T07:20:32",
+      "etapa": "ETL",
+      "detalhe": "extracao e transformacao das fontes"
+    },
+    {
+      "timestamp": "2026-10-20T07:20:32",
+      "etapa": "ETL",
+      "detalhe": "597 noticias consolidadas | 597 novas"
+    },
+    {
+      "timestamp": "2026-10-20T07:20:33",
+      "etapa": "Preparo",
+      "detalhe": "1410 documentos normalizados | {'MAIORIA': 711, 'UNANIME': 564, 'DISCORDANCIA_TOTAL': 135}"
+    },
+    {
+      "timestamp": "2026-10-20T07:20:33",
+      "etapa": "Agente de Desempate",
+      "detalhe": "135 casos de discordancia total | 0 resolvidos (revisao_manual)"
+    },
+    {
+      "timestamp": "2026-10-20T07:21:35",
+      "etapa": "Agente 1",
+      "detalhe": "motor=naive_bayes | 597 classificadas (155 com rotulo humano)"
+    },
+    {
+      "timestamp": "2026-10-20T07:22:13",
+      "etapa": "Agente 2",
+      "detalhe": "motor=encoder_lexical | 597 entrada | 297 aprovadas | 105 baixo | 2 duplicatas | 1 quarentena | 192 sem ancora | 23 promovidas"
+    }
+  ],
+  "noticias": {
+    "executado_em": "2026-10-20T07:20:32",
+    "motores": {
+      "desempate": "revisao_manual",
+      "agente1": "naive_bayes",
+      "agente2": "encoder_lexical",
+      "agente5": "heuristico"
+    },
+    "contagens": {
+      "anotacao": {
+        "MAIORIA": 711,
+        "UNANIME": 564,
+        "DISCORDANCIA_TOTAL": 135
+      },
+      "desempate": {
+        "discordancia_total": 135,
+        "resolvidos": 0,
+        "pendentes_revisao_manual": 135
+      },
+      "agente2_noticias": {
+        "total_entrada": 597,
+        "aprovados": 297,
+        "descartados_baixo": 105,
+        "duplicados": 2,
+        "quarentena": 1,
+        "sem_ancora": 192,
+        "escopo_especifico": 162,
+        "escopo_sistemico": 135,
+        "promovidos_por_regra": 23,
+        "divergencias_knn": 0,
+        "limiar_utilizado": 0.2,
+        "configuracao": {
+          "k_vizinhos": 5,
+          "limiar_similaridade": 0.2,
+          "limiar_duplicata": 0.92,
+          "alpha_fusao": 0.7,
+          "score_minimo": 0.45,
+          "divergencia_minima": 0.15,
+          "remover_baixo_impacto": true,
+          "promover_eventos_criticos": true,
+          "exigir_ancora_de_mercado": true,
+          "deduplicar": true
+        }
+      }
+    },
+    "duracao_s": 129.2,
+    "fontes": {
+      "gnews": "pulada",
+      "guardian": "pulada"
+    },
+    "noticias_na_base": 597,
+    "achados": 4020,
+    "noticias_validas": 297
+  },
+  "semana": {
+    "executado_em": "2026-10-17T10:24:31",
+    "motores": {
+      "agente5": "heuristico"
+    },
+    "contagens": {},
+    "semana": "2026-10 S4"
+  }
+}

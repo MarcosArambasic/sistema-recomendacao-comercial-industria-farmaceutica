@@ -1,12 +1,38 @@
-#IGNORAR O .ENV
-.env 
-
-#IGNORAR O AMBIENTE VIRTUAL DE DESENVOLVIMENTO
+# ---------------------------------------------------------------------------
+# Segredos e ambiente local
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
 venv/
-
-#IGNORAR O ARQUIVO AUXILIADOR DE DOC
-docs/Auxiliador.md
-
-#IGNORAR O ARQUIVO DE CONFIGURAÇÕES
+.venv/
 /configs
 
+# ---------------------------------------------------------------------------
+# Python / ferramentas
+# ---------------------------------------------------------------------------
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+*.bak*
+
+# ---------------------------------------------------------------------------
+# Logs (podem conter URLs com chaves de API)
+# ---------------------------------------------------------------------------
+*.log
+logs/
+
+# ---------------------------------------------------------------------------
+# Saídas geradas (recriadas pelos scripts; ver README)
+# ---------------------------------------------------------------------------
+data/sintetico/*.csv
+data/semanal/
+data/painel/
+data/calibracao/estado_gerador_*.pkl
+outputs/
+
+# ---------------------------------------------------------------------------
+# Arquivos temporários do Office
+# ---------------------------------------------------------------------------
+~$*

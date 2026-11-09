@@ -1,0 +1,90 @@
+{
+  "motor": "naive_bayes",
+  "n_documentos": 1275,
+  "duplicatas_removidas": 0,
+  "n_folds": 5,
+  "metricas_por_fold": [
+    {
+      "fold": 1,
+      "n_validacao": 255,
+      "acuracia": 0.7529,
+      "f1_macro": 0.7493,
+      "kappa_cohen": 0.6294
+    },
+    {
+      "fold": 2,
+      "n_validacao": 255,
+      "acuracia": 0.7333,
+      "f1_macro": 0.7299,
+      "kappa_cohen": 0.6
+    },
+    {
+      "fold": 3,
+      "n_validacao": 255,
+      "acuracia": 0.7333,
+      "f1_macro": 0.7315,
+      "kappa_cohen": 0.6
+    },
+    {
+      "fold": 4,
+      "n_validacao": 255,
+      "acuracia": 0.7451,
+      "f1_macro": 0.7411,
+      "kappa_cohen": 0.6176
+    },
+    {
+      "fold": 5,
+      "n_validacao": 255,
+      "acuracia": 0.6902,
+      "f1_macro": 0.6857,
+      "kappa_cohen": 0.5353
+    }
+  ],
+  "f1_macro_media": 0.7275,
+  "f1_macro_desvio": 0.022041778512633687,
+  "acuracia_media": 0.7309599999999999,
+  "out_of_fold": {
+    "resumo": {
+      "acuracia": 0.731,
+      "f1_macro": 0.7276,
+      "kappa_cohen": 0.5965
+    },
+    "por_classe": {
+      "Alto": {
+        "precisao": 0.8162,
+        "recall": 0.8988,
+        "f1": 0.8555,
+        "suporte": 425
+      },
+      "Medio": {
+        "precisao": 0.6503,
+        "recall": 0.6871,
+        "f1": 0.6682,
+        "suporte": 425
+      },
+      "Baixo": {
+        "precisao": 0.7207,
+        "recall": 0.6071,
+        "f1": 0.659,
+        "suporte": 425
+      }
+    },
+    "matriz_confusao": {
+      "Alto": {
+        "Alto": 382,
+        "Medio": 27,
+        "Baixo": 16
+      },
+      "Medio": {
+        "Alto": 49,
+        "Medio": 292,
+        "Baixo": 84
+      },
+      "Baixo": {
+        "Alto": 37,
+        "Medio": 130,
+        "Baixo": 258
+      }
+    }
+  }
+}

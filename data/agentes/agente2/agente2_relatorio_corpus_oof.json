@@ -1,0 +1,25 @@
+{
+  "total_entrada": 1275,
+  "aprovados": 737,
+  "descartados_baixo": 128,
+  "duplicados": 0,
+  "quarentena": 5,
+  "sem_ancora": 405,
+  "escopo_especifico": 480,
+  "escopo_sistemico": 257,
+  "promovidos_por_regra": 32,
+  "divergencias_knn": 0,
+  "limiar_utilizado": 0.2,
+  "configuracao": {
+    "k_vizinhos": 5,
+    "limiar_similaridade": 0.2,
+    "limiar_duplicata": 0.92,
+    "alpha_fusao": 0.7,
+    "score_minimo": 0.45,
+    "divergencia_minima": 0.15,
+    "remover_baixo_impacto": true,
+    "promover_eventos_criticos": true,
+    "exigir_ancora_de_mercado": true,
+    "deduplicar": true
+  }
+}

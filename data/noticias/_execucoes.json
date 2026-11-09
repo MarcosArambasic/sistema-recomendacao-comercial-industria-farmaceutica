@@ -1,0 +1,125 @@
+[
+  {
+    "executado_em": "2026-10-06T07:14:33",
+    "duracao_s": 25.1,
+    "fontes": {
+      "gnews": "pulada",
+      "guardian": "pulada"
+    },
+    "noticias_na_base": 513,
+    "achados": 1500,
+    "noticias_validas": 326
+  },
+  {
+    "executado_em": "2026-10-06T07:16:34",
+    "duracao_s": 7.4,
+    "fontes": {
+      "gnews": "pulada",
+      "guardian": "pulada"
+    },
+    "noticias_na_base": 513,
+    "achados": 1500,
+    "noticias_validas": 326
+  },
+  {
+    "executado_em": "2026-10-06T07:16:58",
+    "duracao_s": 23.3,
+    "fontes": {
+      "gnews": "pulada",
+      "guardian": "pulada"
+    },
+    "noticias_na_base": 513,
+    "achados": 1500,
+    "noticias_validas": 289
+  },
+  {
+    "executado_em": "2026-10-06T07:17:41",
+    "duracao_s": 24.3,
+    "fontes": {
+      "gnews": "pulada",
+      "guardian": "pulada"
+    },
+    "noticias_na_base": 513,
+    "achados": 1500,
+    "noticias_validas": 289
+  },
+  {
+    "executado_em": "2026-10-06T09:08:01",
+    "duracao_s": 402.0,
+    "fontes": {
+      "gnews": "atualizada",
+      "guardian": "atualizada"
+    },
+    "noticias_na_base": 564,
+    "achados": 4000,
+    "noticias_validas": 336
+  },
+  {
+    "executado_em": "2026-10-07T02:19:20",
+    "duracao_s": 108.4,
+    "fontes": {
+      "gnews": "pulada",
+      "guardian": "pulada"
+    },
+    "noticias_na_base": 564,
+    "motores": {
+      "desempate": "revisao_manual",
+      "agente1": "naive_bayes",
+      "agente2": "encoder_lexical",
+      "agente5": "heuristico"
+    },
+    "achados": 4020,
+    "noticias_validas": 276
+  },
+  {
+    "executado_em": "2026-10-07T13:04:24",
+    "duracao_s": 349.6,
+    "fontes": {
+      "gnews": "atualizada",
+      "guardian": "atualizada"
+    },
+    "noticias_na_base": 597,
+    "motores": {
+      "desempate": "revisao_manual",
+      "agente1": "naive_bayes",
+      "agente2": "encoder_lexical",
+      "agente5": "heuristico"
+    },
+    "achados": 4020,
+    "noticias_validas": 302
+  },
+  {
+    "executado_em": "2026-10-18T17:36:17",
+    "duracao_s": 102.6,
+    "fontes": {
+      "gnews": "pulada",
+      "guardian": "pulada"
+    },
+    "noticias_na_base": 597,
+    "motores": {
+      "desempate": "revisao_manual",
+      "agente1": "naive_bayes",
+      "agente2": "encoder_lexical",
+      "agente5": "heuristico"
+    },
+    "achados": 4020,
+    "noticias_validas": 299
+  },
+  {
+    "executado_em": "2026-10-20T07:20:32",
+    "duracao_s": 129.2,
+    "fontes": {
+      "gnews": "pulada",
+      "guardian": "pulada"
+    },
+    "noticias_na_base": 597,
+    "motores": {
+      "desempate": "revisao_manual",
+      "agente1": "naive_bayes",
+      "agente2": "encoder_lexical",
+      "agente5": "heuristico"
+    },
+    "achados": 4020,
+    "noticias_validas": 297
+  }
+]

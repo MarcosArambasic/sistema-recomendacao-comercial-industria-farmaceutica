@@ -1,0 +1,151 @@
+{
+  "arquivo_saida": "data/estatistica_kappa/noticias_classificadas_ampliado.xlsx",
+  "corpus_humano_original": 1415,
+  "corpus_humano_duplicatas_removidas": 315,
+  "corpus_humano_unico": 1100,
+  "linhas_coletadas": 1018,
+  "quase_duplicatas_removidas": 0,
+  "referencia_na_coleta": {
+    "B": 563,
+    "M": 338,
+    "A": 117
+  },
+  "referencia_alinhada": {
+    "B": 497,
+    "A": 322,
+    "M": 199
+  },
+  "noticias_novas_unicas": 1018,
+  "noticias_novas_incluidas": 310,
+  "novas_por_fonte": {
+    "STAT": 170,
+    "outros RSS/Bing": 99,
+    "The Guardian": 41
+  },
+  "novas_por_referencia": {
+    "ALTO": 251,
+    "BAIXO": 48,
+    "MÉDIO": 11
+  },
+  "novas_consolidado": {
+    "ALTO": 251,
+    "BAIXO": 38,
+    "MÉDIO": 21
+  },
+  "total_linhas": 1410,
+  "consolidado_final": {
+    "BAIXO": 425,
+    "ALTO": 425,
+    "MÉDIO": 425,
+    "DISCORDANCIA_TOTAL": 135
+  },
+  "consolidado_humano": {
+    "MÉDIO": 404,
+    "BAIXO": 387,
+    "ALTO": 174,
+    "DISCORDANCIA_TOTAL": 135
+  },
+  "fleiss_kappa_humano_unico": 0.1694,
+  "fleiss_kappa_simulado": 0.7539,
+  "fleiss_kappa_corpus_ampliado": 0.3514,
+  "concordancia_simulada_com_referencia": 0.9677,
+  "concordancia_par_a_par_novas": {
+    "mendes x guilherme": 0.9452,
+    "mendes x marcos": 0.8903,
+    "guilherme x marcos": 0.9065
+  },
+  "unanimes_novas": 0.871,
+  "matrizes_perfil_avaliador": {
+    "classificacao mendes": {
+      "ALTO": {
+        "ALTO": 0.391,
+        "MÉDIO": 0.603,
+        "BAIXO": 0.006
+      },
+      "MÉDIO": {
+        "ALTO": 0.087,
+        "MÉDIO": 0.767,
+        "BAIXO": 0.146
+      },
+      "BAIXO": {
+        "ALTO": 0.049,
+        "MÉDIO": 0.127,
+        "BAIXO": 0.824
+      }
+    },
+    "classificacao guilherme": {
+      "ALTO": {
+        "ALTO": 1.0,
+        "MÉDIO": 0.0,
+        "BAIXO": 0.0
+      },
+      "MÉDIO": {
+        "ALTO": 0.089,
+        "MÉDIO": 0.765,
+        "BAIXO": 0.146
+      },
+      "BAIXO": {
+        "ALTO": 0.085,
+        "MÉDIO": 0.351,
+        "BAIXO": 0.563
+      }
+    },
+    "classificacao marcos": {
+      "ALTO": {
+        "ALTO": 0.787,
+        "MÉDIO": 0.126,
+        "BAIXO": 0.086
+      },
+      "MÉDIO": {
+        "ALTO": 0.04,
+        "MÉDIO": 0.814,
+        "BAIXO": 0.146
+      },
+      "BAIXO": {
+        "ALTO": 0.0,
+        "MÉDIO": 0.07,
+        "BAIXO": 0.93
+      }
+    }
+  },
+  "distribuicao_por_avaliador": {
+    "classificacao mendes": {
+      "MÉDIO": 566,
+      "BAIXO": 427,
+      "ALTO": 417
+    },
+    "classificacao guilherme": {
+      "ALTO": 578,
+      "MÉDIO": 507,
+      "BAIXO": 325
+    },
+    "classificacao marcos": {
+      "BAIXO": 589,
+      "MÉDIO": 426,
+      "ALTO": 395
+    }
+  },
+  "semente": 42,
+  "alvo_por_classe": 425,
+  "eps_lapso": 0.05,
+  "metodo_anotacao_simulada": "guia de anotacao v2 (julgamento de referencia x regra escrita; lapso eps nos casos claros)",
+  "pool_certeza_guia": {
+    "clara": 684,
+    "limitrofe": 334
+  },
+  "novas_certeza_guia": {
+    "clara": 296,
+    "limitrofe": 14
+  },
+  "novas_criterio_guia": {
+    "A1": 151,
+    "A3": 63,
+    "A2": 40,
+    "B2": 29,
+    "M2": 13,
+    "B1": 8,
+    "M3": 6
+  },
+  "concordancia_referencia_x_guia_pool": 0.6719,
+  "kappa_teto_corpus_com_novas_perfeitas": 0.3803
+}

@@ -1,0 +1,157 @@
+{
+  "gerado_em": "2026-10-06T00:02:04",
+  "seed": 42,
+  "periodo": [
+    "2023-01-01",
+    "2026-09-01"
+  ],
+  "parametros_geracao": {
+    "n_meses": 45,
+    "n_produtos": 30,
+    "n_ufs": 27,
+    "n_outlets": 2700,
+    "n_pares_ativos": 32532,
+    "densidade": 0.4016296296296296,
+    "n_linhas": 1463940,
+    "seed": 42,
+    "periodo": [
+      "2023-01-01",
+      "2026-09-01"
+    ],
+    "crescimento_aplicado": {
+      "proprios": -0.11848223488430348,
+      "concorrentes": 0.7909979720229032
+    }
+  },
+  "tabelas": {
+    "fato_analise_kpi": {
+      "arquivos": [
+        {
+          "arquivo": "fato_analise_kpi.csv",
+          "caminho": "C:\\Users\\Rebecca Arambasic\\Documents\\Marquinhos\\TCC\\sistema-inteligencia-prescritiva-para-industria-farmaceutica\\sistema-recomendacao-comercial-industria-farmaceutica\\data\\sintetico\\fato_analise_kpi.csv",
+          "linhas": 1463940,
+          "tamanho_mb": 201.75,
+          "sha256": "411ca44b48fc40241aad4ca8bc468788fb20678f7b06f97040aac69e1477fb22"
+        }
+      ],
+      "linhas_total": 1463940,
+      "tamanho_mb_total": 201.75,
+      "colunas": [
+        "data_atualizacao_base",
+        "periodo_demanda",
+        "id_produto",
+        "grupo",
+        "id_mercado",
+        "id_outlet",
+        "id_uf",
+        "demanda_produto",
+        "demanda_mercado",
+        "demanda_media_produto",
+        "demanda_media_mercado",
+        "demanda_produto_total",
+        "demanda_mercado_total",
+        "mrkt_share",
+        "cagr_medio",
+        "cv",
+        "indice_sazonal"
+      ]
+    },
+    "fato_demanda_aberta_semanal": {
+      "arquivos": [
+        {
+          "arquivo": "fato_demanda_aberta_semanal.csv",
+          "caminho": "C:\\Users\\Rebecca Arambasic\\Documents\\Marquinhos\\TCC\\sistema-inteligencia-prescritiva-para-industria-farmaceutica\\sistema-recomendacao-comercial-industria-farmaceutica\\data\\sintetico\\fato_demanda_aberta_semanal.csv",
+          "linhas": 7612488,
+          "tamanho_mb": 270.54,
+          "sha256": "0031fb76f617db604c4a62e54f19ea148eab1cef427ae5e85067312800b46fd1"
+        }
+      ],
+      "linhas_total": 7612488,
+      "tamanho_mb_total": 270.54,
+      "colunas": [
+        "data_atualizacao_base",
+        "periodo_demanda",
+        "nr_semana",
+        "id_produto",
+        "id_outlet",
+        "id_uf",
+        "demanda_unidades"
+      ]
+    },
+    "fato_demanda_alocada_semanal": {
+      "arquivos": [
+        {
+          "arquivo": "fato_demanda_alocada_semanal.csv",
+          "caminho": "C:\\Users\\Rebecca Arambasic\\Documents\\Marquinhos\\TCC\\sistema-inteligencia-prescritiva-para-industria-farmaceutica\\sistema-recomendacao-comercial-industria-farmaceutica\\data\\sintetico\\fato_demanda_alocada_semanal.csv",
+          "linhas": 2531178,
+          "tamanho_mb": 88.96,
+          "sha256": "4a755938a89156422fad7bd427db1a876883a7cdcde3cc728d1ee62a2e383a02"
+        }
+      ],
+      "linhas_total": 2531178,
+      "tamanho_mb_total": 88.96,
+      "colunas": [
+        "data_atualizacao_base",
+        "periodo_demanda",
+        "nr_semana",
+        "id_produto",
+        "id_alocacao",
+        "id_setor",
+        "demanda_unidades"
+      ]
+    },
+    "fato_desempenho_semanal": {
+      "arquivos": [
+        {
+          "arquivo": "fato_desempenho_semanal.csv",
+          "caminho": "C:\\Users\\Rebecca Arambasic\\Documents\\Marquinhos\\TCC\\sistema-inteligencia-prescritiva-para-industria-farmaceutica\\sistema-recomendacao-comercial-industria-farmaceutica\\data\\sintetico\\fato_desempenho_semanal.csv",
+          "linhas": 2477093,
+          "tamanho_mb": 149.51,
+          "sha256": "ef38ad1637f55ccbbec5f97be6485dce206fc7661565ed6b3925101b12da53f4"
+        }
+      ],
+      "linhas_total": 2477093,
+      "tamanho_mb_total": 149.51,
+      "colunas": [
+        "periodo_demanda",
+        "nr_semana",
+        "id_produto",
+        "id_setor",
+        "id_alocacao",
+        "demanda_unidades_acumulada",
+        "demanda_unidades_projetada",
+        "cota_mensal",
+        "cobertura_cota",
+        "cobertura_cota_projetada"
+      ]
+    },
+    "fato_analise_semanal": {
+      "arquivos": [
+        {
+          "arquivo": "fato_analise_semanal.csv",
+          "caminho": "C:\\Users\\Rebecca Arambasic\\Documents\\Marquinhos\\TCC\\sistema-inteligencia-prescritiva-para-industria-farmaceutica\\sistema-recomendacao-comercial-industria-farmaceutica\\data\\sintetico\\fato_analise_semanal.csv",
+          "linhas": 2477093,
+          "tamanho_mb": 200.19,
+          "sha256": "089beaf29d8f1a4ee59628e2cbc61f348d21d71b09c045384ff378abb48492d3"
+        }
+      ],
+      "linhas_total": 2477093,
+      "tamanho_mb_total": 200.19,
+      "colunas": [
+        "data_atualizacao_base",
+        "periodo_demanda",
+        "nr_semana",
+        "id_produto",
+        "id_mercado",
+        "id_setor",
+        "id_alocacao",
+        "id_uf",
+        "cobertura_cota_projetada",
+        "mrkt_share",
+        "cagr_medio",
+        "cv",
+        "indice_sazonal"
+      ]
+    }
+  }
+}

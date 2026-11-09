@@ -1,0 +1,148 @@
+{
+  "gerado_em": "2026-10-07T02:24:14",
+  "motores": {
+    "desempate": "revisao_manual",
+    "agente1": "naive_bayes",
+    "agente2": "encoder_lexical"
+  },
+  "anotacao": {
+    "MAIORIA": 863,
+    "UNANIME": 388,
+    "DISCORDANCIA_TOTAL": 164
+  },
+  "desempate": {
+    "discordancia_total": 164,
+    "resolvidos": 0,
+    "pendentes_revisao_manual": 164
+  },
+  "agente1": {
+    "motor": "naive_bayes",
+    "n_documentos": 969,
+    "duplicatas_removidas": 0,
+    "n_folds": 5,
+    "metricas_por_fold": [
+      {
+        "fold": 1,
+        "n_validacao": 195,
+        "acuracia": 0.6615,
+        "f1_macro": 0.6668,
+        "kappa_cohen": 0.4684
+      },
+      {
+        "fold": 2,
+        "n_validacao": 194,
+        "acuracia": 0.7062,
+        "f1_macro": 0.7075,
+        "kappa_cohen": 0.5382
+      },
+      {
+        "fold": 3,
+        "n_validacao": 194,
+        "acuracia": 0.6701,
+        "f1_macro": 0.6672,
+        "kappa_cohen": 0.471
+      },
+      {
+        "fold": 4,
+        "n_validacao": 194,
+        "acuracia": 0.6804,
+        "f1_macro": 0.693,
+        "kappa_cohen": 0.4923
+      },
+      {
+        "fold": 5,
+        "n_validacao": 192,
+        "acuracia": 0.6875,
+        "f1_macro": 0.6935,
+        "kappa_cohen": 0.5013
+      }
+    ],
+    "f1_macro_media": 0.6856,
+    "f1_macro_desvio": 0.01605478121931284,
+    "acuracia_media": 0.6811400000000001,
+    "out_of_fold": {
+      "resumo": {
+        "acuracia": 0.6811,
+        "f1_macro": 0.6858,
+        "kappa_cohen": 0.4943
+      },
+      "por_classe": {
+        "Alto": {
+          "precisao": 0.7086,
+          "recall": 0.7126,
+          "f1": 0.7106,
+          "suporte": 174
+        },
+        "Medio": {
+          "precisao": 0.6471,
+          "recall": 0.7351,
+          "f1": 0.6883,
+          "suporte": 404
+        },
+        "Baixo": {
+          "precisao": 0.7134,
+          "recall": 0.6113,
+          "f1": 0.6584,
+          "suporte": 391
+        }
+      },
+      "matriz_confusao": {
+        "Alto": {
+          "Alto": 124,
+          "Medio": 34,
+          "Baixo": 16
+        },
+        "Medio": {
+          "Alto": 27,
+          "Medio": 297,
+          "Baixo": 80
+        },
+        "Baixo": {
+          "Alto": 24,
+          "Medio": 128,
+          "Baixo": 239
+        }
+      }
+    }
+  },
+  "agente2": {
+    "n_avaliado": 969,
+    "status": {
+      "APROVADO": 469,
+      "SEM_ANCORA_DE_MERCADO": 377,
+      "DESCARTADO_BAIXO_IMPACTO": 119,
+      "QUARENTENA_REVISAO_HUMANA": 4
+    },
+    "aprovacao_vs_referencia": {
+      "precisao": 0.7953,
+      "recall": 0.6453,
+      "f1": 0.7125,
+      "recall_alto": 0.9138
+    },
+    "promocao_por_evento_critico": {
+      "n": 36,
+      "acerto_ref_alto": 0.2778
+    },
+    "classe_agente1_vs_ref": {
+      "acuracia": 0.6811,
+      "f1_macro": 0.6858,
+      "kappa_cohen": 0.4943
+    },
+    "classe_validada_vs_ref": {
+      "acuracia": 0.6718,
+      "f1_macro": 0.6749,
+      "kappa_cohen": 0.4866
+    },
+    "classe_knn_vs_ref": {
+      "acuracia": 0.6223,
+      "f1_macro": 0.6222,
+      "kappa_cohen": 0.4131
+    },
+    "divergencias": 0,
+    "escopo": {
+      "SEM_ANCORA": 377,
+      "SISTEMICO": 332,
+      "ESPECIFICO": 260
+    }
+  }
+}

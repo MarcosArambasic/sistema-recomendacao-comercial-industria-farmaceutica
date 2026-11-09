@@ -1,0 +1,46 @@
+{
+  "gerado_em": "2026-10-20T07:22:41",
+  "motores": {
+    "desempate": "revisao_manual",
+    "agente1": "naive_bayes",
+    "agente2": "encoder_lexical",
+    "agente5": "heuristico"
+  },
+  "resumo": {
+    "recomendacoes_agente3": 9487,
+    "achados_agente4": 4020,
+    "destaques_agente5": 104
+  },
+  "log_execucao": [
+    {
+      "timestamp": "2026-10-20T07:20:32",
+      "etapa": "ETL",
+      "detalhe": "extracao e transformacao das fontes"
+    },
+    {
+      "timestamp": "2026-10-20T07:20:32",
+      "etapa": "ETL",
+      "detalhe": "597 noticias consolidadas | 597 novas"
+    },
+    {
+      "timestamp": "2026-10-20T07:20:33",
+      "etapa": "Preparo",
+      "detalhe": "1410 documentos normalizados | {'MAIORIA': 711, 'UNANIME': 564, 'DISCORDANCIA_TOTAL': 135}"
+    },
+    {
+      "timestamp": "2026-10-20T07:20:33",
+      "etapa": "Agente de Desempate",
+      "detalhe": "135 casos de discordancia total | 0 resolvidos (revisao_manual)"
+    },
+    {
+      "timestamp": "2026-10-20T07:21:35",
+      "etapa": "Agente 1",
+      "detalhe": "motor=naive_bayes | 597 classificadas (155 com rotulo humano)"
+    },
+    {
+      "timestamp": "2026-10-20T07:22:13",
+      "etapa": "Agente 2",
+      "detalhe": "motor=encoder_lexical | 597 entrada | 297 aprovadas | 105 baixo | 2 duplicatas | 1 quarentena | 192 sem ancora | 23 promovidas"
+    }
+  ]
+}
