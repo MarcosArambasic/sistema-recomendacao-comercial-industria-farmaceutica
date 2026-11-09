@@ -17,28 +17,28 @@ O trabalho está documentado em duas versões:
 
 Um **Agente Orquestrador** (padrão orquestrador–executor, em Python puro) coordena seis agentes especializados em duas trilhas que convergem nos Agentes 4 e 5:
 
-| Agente | Função | Motor principal | Motor substituto |
-|---|---|---|---|
-| Orquestrador | ordena as missões, valida contratos, registra o motor usado e um log de cada decisão | — | — |
-| Desempate | resolve notícias com discordância total entre os três avaliadores | Llama 3.1 local (Ollama) | revisão manual |
-| 1 · Classificador de Impacto | classifica o impacto da notícia (Alto, Médio, Baixo) | mBERT (ajuste fino, exige GPU) | Naive Bayes multinomial |
-| 2 · Validador e Ajuste | recalibra a confiança com k-NN semântico e aplica regras de negócio R1–R6 | sentence-transformers | TF-IDF com hashing |
-| 3 · Oportunidades de Mercado | prevê a participação de mercado do mês seguinte e gera oportunidades e riscos | XGBoost + SHAP | regressão ridge |
-| 4 · Riscos e Oportunidades | liga cada notícia aprovada às oportunidades afetadas, com score rastreável | regras auditáveis | — |
-| 5 · Recomendações | escolhe as quatro notícias de maior impacto por setor e redige ação, justificativa e urgência | modelo de linguagem (opcional) | modelos de texto |
+| Agente                        | Função                                                                                          | Motor principal                | Motor substituto        |
+| ----------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------ | ----------------------- |
+| Orquestrador                  | ordena as missões, valida contratos, registra o motor usado e um log de cada decisão            | —                             | —                      |
+| Desempate                     | resolve notícias com discordância total entre os três avaliadores                              | Llama 3.1 local (Ollama)       | revisão manual         |
+| 1 · Classificador de Impacto | classifica o impacto da notícia (Alto, Médio, Baixo)                                            | mBERT (ajuste fino, exige GPU) | Naive Bayes multinomial |
+| 2 · Validador e Ajuste       | recalibra a confiança com k-NN semântico e aplica regras de negócio R1–R6                     | sentence-transformers          | TF-IDF com hashing      |
+| 3 · Oportunidades de Mercado | prevê a participação de mercado do mês seguinte e gera oportunidades e riscos                 | XGBoost + SHAP                 | regressão ridge        |
+| 4 · Riscos e Oportunidades   | liga cada notícia aprovada às oportunidades afetadas, com score rastreável                     | regras auditáveis             | —                      |
+| 5 · Recomendações          | escolhe as quatro notícias de maior impacto por setor e redige ação, justificativa e urgência | modelo de linguagem (opcional) | modelos de texto        |
 
 O motor efetivamente usado em cada execução fica registrado em `data/orquestrador/estado.json`.
 
 ## Principais resultados
 
-| Componente | Resultado |
-|---|---|
-| Corpus | 1.415 notícias anotadas por três avaliadores (κ de Fleiss = 0,1858); ampliado para 1.410 notícias, 1.275 com classe consolidada (425 por classe) |
-| Agente 1 | F1-macro de 0,796 com mBERT (avaliado à parte, com GPU) e 0,728 com Naive Bayes (validação cruzada de 5 partições, fora da amostra) |
-| Agente 2 | 94,8% das notícias de alto impacto preservadas; precisão da aprovação de 0,860 |
-| Base sintética | índice de fidelidade de 98,27 em 100, calibrada apenas em parâmetros agregados |
-| Agente 3 | MAE 7,6% menor que a persistência (teste temporal); acerto de direção de 47,4% |
-| Agentes 4 e 5 | 4.020 achados em 26 setores, 92,7% ancorados em regra de sensibilidade |
+| Componente      | Resultado                                                                                                                                            |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Corpus          | 1.415 notícias anotadas por três avaliadores (κ de Fleiss = 0,1858); ampliado para 1.410 notícias, 1.275 com classe consolidada (425 por classe) |
+| Agente 1        | F1-macro de 0,796 com mBERT (avaliado à parte, com GPU) e 0,728 com Naive Bayes (validação cruzada de 5 partições, fora da amostra)             |
+| Agente 2        | 94,8% das notícias de alto impacto preservadas; precisão da aprovação de 0,860                                                                   |
+| Base sintética | índice de fidelidade de 98,27 em 100, calibrada apenas em parâmetros agregados                                                                     |
+| Agente 3        | MAE 7,6% menor que a persistência (teste temporal); acerto de direção de 47,4%                                                                    |
+| Agentes 4 e 5   | 4.020 achados em 26 setores, 92,7% ancorados em regra de sensibilidade                                                                               |
 
 As 310 notícias adicionadas na ampliação foram classificadas de forma automatizada a partir de um guia de regras (`docs/Arquitetura/ampliar_corpus_noticias.py`); a concordância dessas classificações (κ = 0,7539) reflete o protocolo, e não avaliadores humanos independentes. As limitações completas estão na seção 4.8 do artigo.
 
@@ -66,7 +66,6 @@ data/
 docs/
   artigo/               artigo final, figuras e script que gera as figuras
   Arquitetura/          guias de execução, métricas, painel e relatório de validação
-  apresentacao/         slides da defesa
 ```
 
 Saídas grandes e regeneráveis (`data/sintetico/*.csv`, `data/semanal/`, `data/painel/`, `logs/`) não são versionadas; os scripts abaixo as recriam.
@@ -113,13 +112,13 @@ streamlit run app/painel.py                               # painel de insights
 
 O que cada etapa exige:
 
-| Etapa | Requisito |
-|---|---|
-| Base sintética, Agente 3, Naive Bayes, métricas | apenas CPU; sem chaves de API |
-| Treino do mBERT | GPU (sem ela, o orquestrador usa o Naive Bayes) |
-| Desempate com LLM | Ollama em execução com `llama3.1` (sem ele, os casos vão para revisão manual) |
-| Coleta de notícias novas | chaves GNews e/ou The Guardian no `.env` (ou `python scripts/orquestrar.py noticias --sem-extracao`) |
-| Redação com LLM no Agente 5 | `OPENAI_API_KEY` e `--usar-llm` (opcional) |
+| Etapa                                             | Requisito                                                                                                |
+| ------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Base sintética, Agente 3, Naive Bayes, métricas | apenas CPU; sem chaves de API                                                                            |
+| Treino do mBERT                                   | GPU (sem ela, o orquestrador usa o Naive Bayes)                                                          |
+| Desempate com LLM                                 | Ollama em execução com `llama3.1` (sem ele, os casos vão para revisão manual)                      |
+| Coleta de notícias novas                         | chaves GNews e/ou The Guardian no `.env` (ou `python scripts/orquestrar.py noticias --sem-extracao`) |
+| Redação com LLM no Agente 5                     | `OPENAI_API_KEY` e `--usar-llm` (opcional)                                                           |
 
 O corpus anotado (`data/estatistica_kappa/`) e os parâmetros de calibração (`data/calibracao/calibracao.json`) são arquivos previamente gerados e já estão no repositório. A geração da base é determinística por semente.
 
