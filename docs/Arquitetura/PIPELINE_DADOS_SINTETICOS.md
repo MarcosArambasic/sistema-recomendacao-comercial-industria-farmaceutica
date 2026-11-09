@@ -9,10 +9,10 @@ Gerado em 25/08/2026 · `synthetic_data_fidelity_score` atual: **98,28 / 100**
 
 Gera a base histórica sintética das duas tabelas mensais — `fato_demanda_aberta_mensal` e `fato_cota_mensal` — cobrindo **44 meses (jan/2023 a ago/2026)**, calibrada em parâmetros **agregados e reais** da empresa. As tabelas semanais não são geradas aqui: elas são populadas pelo pipeline semanal, alimentado por esta base.
 
-| Saída | Grão | Linhas |
-|---|---|---|
-| `fato_demanda_aberta_mensal` | mês × produto × outlet | 1.431.012 |
-| `fato_cota_mensal` | mês × setor × produto próprio | 11.610 |
+| Saída                         | Grão                             | Linhas    |
+| ------------------------------ | --------------------------------- | --------- |
+| `fato_demanda_aberta_mensal` | mês × produto × outlet         | 1.431.012 |
+| `fato_cota_mensal`           | mês × setor × produto próprio | 11.610    |
 
 Tempo total de execução: ~41 s (4 s de geração + validação, 37 s de exportação CSV).
 
@@ -59,7 +59,6 @@ sistema-recomendacao-comercial-industria-farmaceutica/
 ├── logs/pipeline_AAAAMMDD.jsonl                  ← log estruturado por etapa
 │
 └── docs/Arquitetura/
-    ├── PRIMEIRA_ENTREGA_Diagnostico_Pipeline.md  ← diagnóstico A–K
     ├── PIPELINE_DADOS_SINTETICOS.md              ← este documento
     └── RELATORIO_VALIDACAO.md                    ← gerado a cada execução
 ```
@@ -86,39 +85,39 @@ demanda(produto, outlet, mês) =
 
 ### 3.2. Distribuições escolhidas
 
-| Componente | Distribuição | Justificativa |
-|---|---|---|
-| Escala por território | Log-normal | O log das médias reais por UF tem assimetria ≈ −0,27 (quase simétrico) ⇒ a variável original é log-normal. Não gera negativos. |
-| Peso por outlet | Log-normal σ=0,70 | Calibrado para top 20% ≈ 65% **dentro de cada UF**. |
-| Ruído temporal | AR(1), φ=0,57 | O resíduo real tem autocorrelação lag-1 de +0,54 a +0,59. Ruído i.i.d. daria série sem memória. |
-| Sazonalidade | Empírica | 24 meses reais × 27 UFs já disponíveis — melhor que qualquer forma paramétrica. |
-| Demanda | Contínua arredondada | Volumes na casa de milhares tornam Poisson/NegBin desnecessário. |
+| Componente             | Distribuição        | Justificativa                                                                                                                          |
+| ---------------------- | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Escala por território | Log-normal            | O log das médias reais por UF tem assimetria ≈ −0,27 (quase simétrico) ⇒ a variável original é log-normal. Não gera negativos. |
+| Peso por outlet        | Log-normal σ=0,70    | Calibrado para top 20% ≈ 65% **dentro de cada UF**.                                                                             |
+| Ruído temporal        | AR(1), φ=0,57        | O resíduo real tem autocorrelação lag-1 de +0,54 a +0,59. Ruído i.i.d. daria série sem memória.                                  |
+| Sazonalidade           | Empírica             | 24 meses reais × 27 UFs já disponíveis — melhor que qualquer forma paramétrica.                                                   |
+| Demanda                | Contínua arredondada | Volumes na casa de milhares tornam Poisson/NegBin desnecessário.                                                                      |
 
 ### 3.3. Três descobertas que mudaram o modelo
 
 **(a) O CV de 146% é transversal, não temporal.** A aba "Distribuições Numéricas" traz média 88.740 e desvio 129.934 (CV 146%). Injetar isso como volatilidade produziria um território saltando de 300 para 100.000 de um mês para o outro. Decompondo os dados reais:
 
-| Fonte de variação | CV real |
-|---|---|
-| Entre territórios (transversal) | 146,4% próprios / 142,0% mercado |
-| Dentro do território no tempo | **9,7% próprios / 26,0% mercado** |
+| Fonte de variação              | CV real                                  |
+| -------------------------------- | ---------------------------------------- |
+| Entre territórios (transversal) | 146,4% próprios / 142,0% mercado        |
+| Dentro do território no tempo   | **9,7% próprios / 26,0% mercado** |
 
 O CV de 26,03% anotado no Excel bate exatamente com o CV temporal do mercado (26,02%), confirmando a leitura.
 
 **(b) O ruído a injetar é menor que o CV observado.** O CV bruto já contém tendência e sazonalidade. Decompondo:
 
-| | CV bruto | sem tendência | **resíduo (injetado)** |
-|---|---|---|---|
-| Próprios | 9,69% | 7,42% | **4,40%** |
-| Mercado | 26,02% | 10,64% | **7,26%** |
+|           | CV bruto | sem tendência | **resíduo (injetado)** |
+| --------- | -------- | -------------- | ----------------------------- |
+| Próprios | 9,69%    | 7,42%          | **4,40%**               |
+| Mercado   | 26,02%   | 10,64%         | **7,26%**               |
 
 **(c) Produtos próprios caem enquanto o mercado cresce.** Aplicar +35,14% a tudo apagaria a erosão de share — o fenômeno central do negócio:
 
-| Ano | Mercado | Próprios | Share |
-|---|---|---|---|
-| 2024 | 1.648.252 | 426.124 | 25,85% |
-| 2025 | 2.462.863 | 408.351 | 16,58% |
-| 2026 | 3.009.953 | 352.177 | 11,70% |
+| Ano  | Mercado   | Próprios | Share  |
+| ---- | --------- | --------- | ------ |
+| 2024 | 1.648.252 | 426.124   | 25,85% |
+| 2025 | 2.462.863 | 408.351   | 16,58% |
+| 2026 | 3.009.953 | 352.177   | 11,70% |
 
 O gerador aplica tendências **separadas** a próprios e concorrentes; o mercado emerge da soma, então o CAGR de +35,14% é reproduzido por construção.
 
@@ -135,28 +134,35 @@ Como o perfil sazonal dos concorrentes é assimétrico entre semestres (H2/H1 = 
 ## 4. Fórmulas implementadas
 
 ### Market share
+
 ```
 mrkt_share = demanda_produto / demanda_mercado          (0 ≤ ms ≤ 1)
 ```
+
 Resulta da demanda gerada, nunca é sorteado.
 
 ### CAGR (convenção do Excel — usada na validação)
+
 ```
 CAGR = (média_mensal_ano_final / média_mensal_ano_inicial)^(1/n_anos) − 1
 ```
 
 ### Coeficiente de variação
+
 ```
 CV = desvio_padrão / média
 ```
 
 ### Índice sazonal
+
 ```
 índice(m) = demanda_mensal(m) / média_mensal_do_ano
 ```
+
 Normalizado para que a média dos 12 meses seja exatamente 1,0.
 
 ### Cota mensal (`calcular_cota_mensal`, tudo parametrizável)
+
 ```
 cota(M) = média(demanda[M−6 … M−1])
         × fator_extrapolação_tendência
@@ -171,10 +177,12 @@ O `fator_extrapolação_tendência` existe porque a média da janela fica ~3,5 m
 **Bootstrap.** Os primeiros meses não têm 6 meses de histórico; usa-se janela expansível, sinalizada na coluna `bootstrap` (1.350 linhas, todas antes de ago/2023).
 
 ### Cobertura de cota (para o pipeline semanal)
+
 ```
 cobertura_cota           = realizado_acumulado / cota_mensal
 cobertura_cota_projetada = (acumulado / dias_corridos × dias_do_mês) / cota_mensal
 ```
+
 Thresholds do Excel: ≤65% crítico · ≤75% atenção · <80% próximo · ≥80% bateu plano.
 
 ---
@@ -195,6 +203,7 @@ No período de 44 meses são **229 semanas comerciais** (33 meses com 5, 10 mese
 ## 6. Como usar
 
 ### Instalação
+
 ```bash
 pip install -r requirements.txt
 cp .env.example .env      # preencha DATABASE_URL com a senha real
@@ -266,11 +275,13 @@ Só carrega se o fidelity score ≥ 80 (ajustável com `--score-minimo`). Usa CO
 Diferente da carga direta, o `\copy` **sempre insere** — rodar duas vezes duplica. Antes de reimportar, limpe o intervalo (o `INSTRUCOES_IMPORTACAO.md` já traz o `delete` pronto).
 
 ### Testes
+
 ```bash
 pytest tests/ -v          # 41 testes
 ```
 
 ### Módulos isolados
+
 ```bash
 python -m src.sintetico.calibracao   # recalibra e mostra os parâmetros
 python -m src.sintetico.calendario   # inspeciona o calendário
@@ -284,29 +295,29 @@ python -m src.sintetico.exportacao   # só a exportação em CSV
 
 ## 7. Resultado da validação
 
-| Dimensão | Score |
-|---|---|
-| Integridade | 100,00 |
-| Reconciliação | 100,00 |
-| Distribuição | 97,33 |
-| Tendência | 97,11 |
-| Sazonalidade | 96,54 |
-| Correlação | 95,33 |
+| Dimensão                               | Score           |
+| --------------------------------------- | --------------- |
+| Integridade                             | 100,00          |
+| Reconciliação                         | 100,00          |
+| Distribuição                          | 97,33           |
+| Tendência                              | 97,11           |
+| Sazonalidade                            | 96,54           |
+| Correlação                            | 95,33           |
 | **synthetic_data_fidelity_score** | **98,28** |
 
 Aderência aos alvos reais:
 
-| Métrica | Gerado | Alvo | Erro |
-|---|---|---|---|
-| CAGR mercado (conv. Excel) | +35,34% | +35,14% | 0,21 p.p. |
-| CAGR concorrentes | +47,24% | +47,47% | 0,22 p.p. |
-| CAGR próprios | −10,10% | −9,09% | 1,01 p.p. |
-| CV temporal próprios | 9,93% | 9,69% | 2,5% rel. |
-| CV temporal mercado | 26,21% | 26,02% | 0,7% rel. |
-| Market share médio | 17,19% | 17,66% | 2,7% rel. |
-| Market share (desvio) | 0,0878 | 0,0885 | 0,8% rel. |
-| Pareto top 20% intra-UF | 65,8% | 65,0% | 1,2% rel. |
-| Razão cota/demanda | 1,042 | 1,0425 | 0,05% rel. |
+| Métrica                   | Gerado   | Alvo    | Erro       |
+| -------------------------- | -------- | ------- | ---------- |
+| CAGR mercado (conv. Excel) | +35,34%  | +35,14% | 0,21 p.p.  |
+| CAGR concorrentes          | +47,24%  | +47,47% | 0,22 p.p.  |
+| CAGR próprios             | −10,10% | −9,09% | 1,01 p.p.  |
+| CV temporal próprios      | 9,93%    | 9,69%   | 2,5% rel.  |
+| CV temporal mercado        | 26,21%   | 26,02%  | 0,7% rel.  |
+| Market share médio        | 17,19%   | 17,66%  | 2,7% rel.  |
+| Market share (desvio)      | 0,0878   | 0,0885  | 0,8% rel.  |
+| Pareto top 20% intra-UF    | 65,8%    | 65,0%   | 1,2% rel.  |
+| Razão cota/demanda        | 1,042    | 1,0425  | 0,05% rel. |
 
 **Cuidado metodológico:** todos os alvos foram medidos na janela do Excel (jul/2024–jun/2026) e no grão território × mês. A validação recorta exatamente a mesma janela — comparar contra os 44 meses daria erro espúrio, porque CV e CAGR dependem da janela.
 
@@ -314,17 +325,17 @@ Aderência aos alvos reais:
 
 ## 8. Premissas assumidas (registrar no TCC)
 
-| # | Premissa | Origem |
-|---|---|---|
-| 1 | Partição igual entre os 10 próprios e entre os 20 concorrentes | Decisão do grupo |
-| 2 | Concentração Pareto: top 20% dos outlets ≈ 65% do volume intra-UF | Decisão do grupo |
-| 3 | Esparsidade ~40%: nem todo produto existe em todo outlet | Decisão do grupo |
-| 4 | Jan/2023–jun/2024 retropolado projetando a tendência para trás | Decisão do grupo |
-| 5 | Crescimento da cota +4,25% | Excel (objetivo/demanda) |
-| 6 | Cota apenas para produtos próprios | Excel + regra de negócio |
-| 7 | 0% de nulos e 0% de outliers | Excel (nulos = 0; outliers em branco) |
-| 8 | `periodo_demanda` mensal = primeiro dia do mês | Convenção adotada |
-| 9 | Sazonalidade por SKU = índice agregado ± 5% | Excel não tem por SKU |
+| # | Premissa                                                             | Origem                                |
+| - | -------------------------------------------------------------------- | ------------------------------------- |
+| 1 | Partição igual entre os 10 próprios e entre os 20 concorrentes    | Decisão do grupo                     |
+| 2 | Concentração Pareto: top 20% dos outlets ≈ 65% do volume intra-UF | Decisão do grupo                     |
+| 3 | Esparsidade ~40%: nem todo produto existe em todo outlet             | Decisão do grupo                     |
+| 4 | Jan/2023–jun/2024 retropolado projetando a tendência para trás    | Decisão do grupo                     |
+| 5 | Crescimento da cota +4,25%                                           | Excel (objetivo/demanda)              |
+| 6 | Cota apenas para produtos próprios                                  | Excel + regra de negócio             |
+| 7 | 0% de nulos e 0% de outliers                                         | Excel (nulos = 0; outliers em branco) |
+| 8 | `periodo_demanda` mensal = primeiro dia do mês                    | Convenção adotada                   |
+| 9 | Sazonalidade por SKU = índice agregado ± 5%                        | Excel não tem por SKU                |
 
 **Sobre a premissa 4:** a retropolação produz share de ~44% em 2023, caindo para 10,6% em 2026. É coerente com a erosão observada, mas são **18 meses extrapolados além dos dados**. Vale citar como limitação no texto.
 
