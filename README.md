@@ -7,9 +7,7 @@ Sistema de inteligência prescritiva com arquitetura multiagente. Ele cruza **no
 O trabalho está documentado em duas versões:
 
 - [`docs/artigo/Artigo_Completo_TCC.docx`](docs/artigo/Artigo_Completo_TCC.docx) — versão completa, com a metodologia detalhada (base sintética, cada agente, fundamentação dos cálculos) e todos os resultados;
-- [`docs/artigo/Artigo_Final_TCC.docx`](docs/artigo/Artigo_Final_TCC.docx) — versão condensada de 20 páginas entregue à banca.
-
-![Arquitetura](docs/artigo/figuras/fig01_arquitetura_orquestrador.png)
+- [`docs/artigo/Artigo_Final_TCC.pdf`](docs/artigo/Artigo_Final_TCC.pdf) — versão condensada de 20 páginas entregue à banca.
 
 ---
 
